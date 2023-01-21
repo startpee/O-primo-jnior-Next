@@ -19,7 +19,7 @@ const Home = (props) => {
         </Head>
         <div className="home-hero">
           <div className="home-bg"></div>
-          <Header></Header>
+          <Header rootClassName="header-root-class-name1"></Header>
           <div className="home-container01">
             <div className="home-container02">
               <h1 className="home-text">Olá, eu sou o primo júnior</h1>

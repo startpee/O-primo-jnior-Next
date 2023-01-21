@@ -319,6 +319,7 @@ const Header = (props) => {
           .header-root-class-name {
             margin-bottom: 0px;
           }
+
           @media (max-width: 991px) {
             .header-header {
               max-width: 1320px;
@@ -371,6 +372,9 @@ const Header = (props) => {
           @media (max-width: 479px) {
             .header-mobile-menu {
               display: none;
+            }
+            .header-root-class-name1 {
+              width: 100%;
             }
           }
         `}
