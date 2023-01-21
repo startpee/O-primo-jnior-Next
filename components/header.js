@@ -57,8 +57,8 @@ const Header = (props) => {
         <div data-role="MobileMenu" className="header-mobile-menu">
           <div className="header-top">
             <img
-              src={props.image_src1}
               alt={props.image_alt1}
+              src={props.image_src1}
               className="header-image1"
             />
             <div data-role="CloseMobileMenu" className="header-close-menu">
@@ -386,17 +386,17 @@ const Header = (props) => {
 Header.defaultProps = {
   rootClassName: '',
   image_alt: 'image',
+  image_alt1: 'image',
   image_src: '/playground_assets/primojunior%20%5B1%5D-200h.png',
   image_src1: '/playground_assets/primo-1500h.png',
-  image_alt1: 'image',
 }
 
 Header.propTypes = {
   rootClassName: PropTypes.string,
   image_alt: PropTypes.string,
+  image_alt1: PropTypes.string,
   image_src: PropTypes.string,
   image_src1: PropTypes.string,
-  image_alt1: PropTypes.string,
 }
 
 export default Header

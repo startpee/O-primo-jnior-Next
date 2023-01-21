@@ -1,9 +1,11 @@
 import React from 'react'
 
+import PropTypes from 'prop-types'
+
 const Footer = (props) => {
   return (
     <>
-      <div className="footer-container">
+      <div className={`footer-container ${props.rootClassName} `}>
         <div className="footer-container01">
           <div className="footer-container02">
             <h1 className="footer-text TextXL">@oprimojunior</h1>
@@ -254,6 +256,7 @@ const Footer = (props) => {
             color: var(--dl-color-secondary-500);
             align-self: center;
           }
+
           @media (max-width: 991px) {
             .footer-container01 {
               align-items: center;
@@ -286,11 +289,29 @@ const Footer = (props) => {
             .footer-container10 {
               align-items: center;
             }
+            .footer-root-class-name {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          @media (max-width: 479px) {
+            .footer-root-class-name {
+              width: 100%;
+              height: 100%;
+            }
           }
         `}
       </style>
     </>
   )
+}
+
+Footer.defaultProps = {
+  rootClassName: '',
+}
+
+Footer.propTypes = {
+  rootClassName: PropTypes.string,
 }
 
 export default Footer

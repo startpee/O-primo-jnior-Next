@@ -169,7 +169,7 @@ const Home = (props) => {
             className="home-image1"
           />
         </div>
-        <Footer></Footer>
+        <Footer rootClassName="footer-root-class-name"></Footer>
       </div>
       <style jsx>
         {`
@@ -610,6 +610,9 @@ const Home = (props) => {
             object-fit: cover;
           }
           @media (max-width: 991px) {
+            .home-container {
+              align-items: center;
+            }
             .home-section2 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
@@ -638,6 +641,9 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .home-container {
+              align-items: center;
+            }
             .home-section1 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
@@ -660,10 +666,13 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .home-container {
+              align-items: center;
+            }
             .home-container01 {
               left: 0px;
               right: 0px;
-              width: 478px;
+              width: 100%;
               margin: auto;
             }
             .home-container02 {
@@ -678,6 +687,9 @@ const Home = (props) => {
             }
             .home-text01 {
               color: var(--dl-color-pimary-900);
+            }
+            .home-section2 {
+              width: 100%;
             }
             .home-container04 {
               align-items: flex-start;
