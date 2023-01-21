@@ -231,7 +231,7 @@ const Home = (props) => {
             text-align: center;
           }
           .home-text01 {
-            color: var(--dl-color-gray-900);
+            color: var(--dl-color-pimary-900);
             max-width: 600px;
             text-align: center;
           }
@@ -673,6 +673,9 @@ const Home = (props) => {
             .home-text {
               color: var(--dl-color-gray-white);
               font-size: 1rem;
+            }
+            .home-text01 {
+              color: var(--dl-color-pimary-900);
             }
             .home-container04 {
               align-items: flex-start;
