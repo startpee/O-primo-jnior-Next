@@ -27,12 +27,11 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-section1">
-          <div className="home-div">
-            <DangerousHTML
-              html={`<storifyme-collection url="https://stories.storifyme.com/widgets/g-francisco-junior-49065/widget/custom/6949"></storifyme-collection>`}
-            ></DangerousHTML>
-          </div>
+        <div className="home-section1"></div>
+        <div className="home-div">
+          <DangerousHTML
+            html={`<storifyme-collection url="https://stories.storifyme.com/widgets/g-francisco-junior-49065/widget/custom/6949"></storifyme-collection>`}
+          ></DangerousHTML>
         </div>
         <div className="home-section2">
           <div className="home-container03">
@@ -238,6 +237,7 @@ const Home = (props) => {
           .home-section1 {
             flex: 0 0 auto;
             width: 100%;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
             position: relative;
             align-items: center;
@@ -246,7 +246,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-doubleunit);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-fiveunits);
-            justify-content: center;
+            justify-content: flex-end;
             background-color: var(--dl-color-pimary-900);
           }
           .home-div {
