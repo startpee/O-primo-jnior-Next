@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 const Counter = (props) => {
   return (
     <>
-      <div className="counter-container">
+      <div className={`counter-container ${props.rootClassName} `}>
         <h1 className="counter-text TextXL">{props.number}</h1>
         <span className="counter-text1 TextSM">{props.type}</span>
       </div>
@@ -25,6 +25,18 @@ const Counter = (props) => {
           .counter-text1 {
             color: var(--dl-color-secondary-500);
           }
+
+          @media (max-width: 479px) {
+            .counter-root-class-name {
+              display: none;
+            }
+            .counter-root-class-name1 {
+              display: none;
+            }
+            .counter-root-class-name2 {
+              display: none;
+            }
+          }
         `}
       </style>
     </>
@@ -34,11 +46,13 @@ const Counter = (props) => {
 Counter.defaultProps = {
   type: 'Friends',
   number: '22',
+  rootClassName: '',
 }
 
 Counter.propTypes = {
   type: PropTypes.string,
   number: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default Counter
