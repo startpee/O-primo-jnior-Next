@@ -368,7 +368,7 @@ const Home = (props) => {
             width: 100%;
             border: 2px dashed rgba(120, 120, 120, 0.4);
             height: 100px;
-            display: flex;
+            display: none;
             align-items: flex-start;
             flex-direction: row;
             justify-content: center;
