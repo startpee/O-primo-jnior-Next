@@ -370,7 +370,7 @@ const Header = (props) => {
           }
           @media (max-width: 479px) {
             .header-mobile-menu {
-              display: flex;
+              display: none;
             }
           }
         `}
