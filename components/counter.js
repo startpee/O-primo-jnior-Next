@@ -25,7 +25,37 @@ const Counter = (props) => {
           .counter-text1 {
             color: var(--dl-color-secondary-500);
           }
-
+          .counter-root-class-name {
+            display: none;
+          }
+          .counter-root-class-name1 {
+            display: none;
+          }
+          .counter-root-class-name2 {
+            display: none;
+          }
+          @media (max-width: 991px) {
+            .counter-root-class-name {
+              display: none;
+            }
+            .counter-root-class-name1 {
+              display: none;
+            }
+            .counter-root-class-name2 {
+              display: none;
+            }
+          }
+          @media (max-width: 767px) {
+            .counter-root-class-name {
+              display: none;
+            }
+            .counter-root-class-name1 {
+              display: none;
+            }
+            .counter-root-class-name2 {
+              display: none;
+            }
+          }
           @media (max-width: 479px) {
             .counter-root-class-name {
               display: none;
