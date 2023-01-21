@@ -52,7 +52,7 @@ const Home = (props) => {
           <div className="home-growing-company-section">
             <img
               alt="image"
-              src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80"
+              src="/playground_assets/img_20230118_131316-1400w.webp"
               className="home-image"
             />
             <div className="home-container04">
