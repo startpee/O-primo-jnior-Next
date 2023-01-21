@@ -58,8 +58,9 @@ const Home = (props) => {
               <h3 className="home-text05 Healine">Minha empresa</h3>
               <span className="home-text06">
                 Ao longo do ano de 2023, vou compartilhar a minha jornada  nos
-                negócios sobre a minha startup que construir com foco em ajudar 
-                empreendedores brasileiro a gerenciar os negócios com sabedoria.
+                negócios sobre a minha startup que vou construir com foco em
+                ajudar  empreendedores brasileiro a gerenciar os negócios com
+                sabedoria.
               </span>
               <div className="home-container06">
                 <div className="home-container07">
