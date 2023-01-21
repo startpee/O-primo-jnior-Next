@@ -239,7 +239,7 @@ const Home = (props) => {
             flex: 0 0 auto;
             width: 100%;
             border: 2px dashed rgba(120, 120, 120, 0.4);
-            display: flex;
+            display: none;
             position: relative;
             align-items: center;
             padding-top: var(--dl-space-space-tripleunit);
