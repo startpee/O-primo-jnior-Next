@@ -74,15 +74,15 @@ const Counter = (props) => {
 }
 
 Counter.defaultProps = {
+  rootClassName: '',
   type: 'Friends',
   number: '22',
-  rootClassName: '',
 }
 
 Counter.propTypes = {
+  rootClassName: PropTypes.string,
   type: PropTypes.string,
   number: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default Counter

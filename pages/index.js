@@ -216,7 +216,7 @@ const Home = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/pexels-caio-45917%20%5B1%5D%20%5B1%5D-1500h.webp');
+            background-image: url('/playground_assets/pexels-caio-45917%20%5B2%5D-1500h.webp');
           }
           .home-container02 {
             display: flex;
@@ -679,7 +679,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-doubleunit);
               margin-bottom: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-doubleunit);
-              padding-bottom: 220px;
+              padding-bottom: var(--dl-space-space-halfunit);
             }
             .home-text {
               color: var(--dl-color-gray-white);
