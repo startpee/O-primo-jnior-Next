@@ -61,19 +61,26 @@ const Footer = (props) => {
             <div className="footer-container09">
               <span className="footer-text2 TextXS">Link importante</span>
               <span className="footer-text3 TextSM">Sobre</span>
-              <span className="footer-text4 TextSM">Fale comigo</span>
+              <a
+                href="https://api.whatsapp.com/send?phone=5511967272695"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="footer-link3 TextSM"
+              >
+                Fale comigo
+              </a>
             </div>
             <div className="footer-container10">
-              <span className="footer-text5 TextXS">empresa</span>
-              <span className="footer-text6 TextSM">
+              <span className="footer-text4 TextXS">empresa</span>
+              <span className="footer-text5 TextSM">
                 Politica de privacidade
               </span>
-              <span className="footer-text7 TextSM">Minha startup</span>
+              <span className="footer-text6 TextSM">Minha startup</span>
             </div>
           </div>
         </div>
         <div className="footer-container11"></div>
-        <span className="footer-text8 TextSM">
+        <span className="footer-text7 TextSM">
           Copyright © 2023 O primo júnior
         </span>
       </div>
@@ -219,9 +226,10 @@ const Footer = (props) => {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .footer-text4 {
+          .footer-link3 {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
           }
           .footer-container10 {
             flex: 0 0 auto;
@@ -229,16 +237,16 @@ const Footer = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .footer-text5 {
+          .footer-text4 {
             color: var(--dl-color-secondary-400);
             font-weight: 600;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .footer-text6 {
+          .footer-text5 {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .footer-text7 {
+          .footer-text6 {
             color: var(--dl-color-secondary-500);
           }
           .footer-container11 {
@@ -252,7 +260,7 @@ const Footer = (props) => {
             flex-direction: column;
             background-color: #e3e8efff;
           }
-          .footer-text8 {
+          .footer-text7 {
             color: var(--dl-color-secondary-500);
             align-self: center;
           }
