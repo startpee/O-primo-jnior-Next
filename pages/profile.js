@@ -83,7 +83,7 @@ const Profile = (props) => {
             </div>
             <div className="profile-container09"></div>
             <span className="profile-text3">
-              Meu propósito é desperta a a sua sabedoria
+              Meu propósito é despertar a sua sabedoria
             </span>
             <span className="profile-text4">Ler mais</span>
           </div>
