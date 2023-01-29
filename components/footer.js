@@ -38,14 +38,21 @@ const Footer = (props) => {
                 </a>
               </div>
               <div className="footer-container06">
-                <svg viewBox="0 0 1024 1024" className="footer-icon06">
-                  <path d="M512 0c-281.6 0-512 230.4-512 512s230.4 512 512 512 512-230.4 512-512-227.8-512-512-512zM747.6 739.8c-10.2 15.4-28.2 20.4-43.6 10.2-120.4-74.2-271.4-89.6-450.6-48.6-18 5.2-33.2-7.6-38.4-23-5.2-18 7.6-33.2 23-38.4 194.6-43.6 363.6-25.6 496.6 56.4 18 7.6 20.6 28 13 43.4zM809 599c-12.8 18-35.8 25.6-53.8 12.8-138.2-84.4-348.2-110-509.4-58.8-20.4 5.2-43.6-5.2-48.6-25.6-5.2-20.4 5.2-43.6 25.6-48.6 186.8-56.4 417.2-28.2 576 69.2 15.2 7.6 23 33.2 10.2 51zM814 455.6c-163.8-97.2-437.8-107.6-594-58.8-25.6 7.6-51.2-7.6-58.8-30.8-7.6-25.6 7.6-51.2 30.8-58.8 181.8-53.8 481.2-43.6 670.8 69.2 23 12.8 30.8 43.6 18 66.6-13 17.8-43.6 25.4-66.8 12.6z"></path>
-                </svg>
+                <a
+                  href="https://open.spotify.com/show/4GLX3DpZCOgAHsV6SWwj7o?go=1&amp;sp_cid=1a2f9dc2c195ddf4646f77637a80f963&amp;utm_source=embed_player_p&amp;utm_medium=desktop&amp;nd=1"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="footer-link2"
+                >
+                  <svg viewBox="0 0 1024 1024" className="footer-icon06">
+                    <path d="M512 0c-281.6 0-512 230.4-512 512s230.4 512 512 512 512-230.4 512-512-227.8-512-512-512zM747.6 739.8c-10.2 15.4-28.2 20.4-43.6 10.2-120.4-74.2-271.4-89.6-450.6-48.6-18 5.2-33.2-7.6-38.4-23-5.2-18 7.6-33.2 23-38.4 194.6-43.6 363.6-25.6 496.6 56.4 18 7.6 20.6 28 13 43.4zM809 599c-12.8 18-35.8 25.6-53.8 12.8-138.2-84.4-348.2-110-509.4-58.8-20.4 5.2-43.6-5.2-48.6-25.6-5.2-20.4 5.2-43.6 25.6-48.6 186.8-56.4 417.2-28.2 576 69.2 15.2 7.6 23 33.2 10.2 51zM814 455.6c-163.8-97.2-437.8-107.6-594-58.8-25.6 7.6-51.2-7.6-58.8-30.8-7.6-25.6 7.6-51.2 30.8-58.8 181.8-53.8 481.2-43.6 670.8 69.2 23 12.8 30.8 43.6 18 66.6-13 17.8-43.6 25.4-66.8 12.6z"></path>
+                  </svg>
+                </a>
               </div>
               <div className="footer-container07">
                 <a
                   href="https://br.pinterest.com/oprimojunior/"
-                  className="footer-link2"
+                  className="footer-link3"
                 >
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
@@ -63,7 +70,7 @@ const Footer = (props) => {
               <span className="footer-text3 TextSM">Sobre</span>
               <a
                 href="https://api.whatsapp.com/send?phone=5511967272695"
-                className="footer-link3 TextSM"
+                className="footer-link4 TextSM"
               >
                 Fale comigo
               </a>
@@ -177,9 +184,13 @@ const Footer = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-white);
           }
+          .footer-link2 {
+            display: contents;
+          }
           .footer-icon06 {
             width: 24px;
             height: 24px;
+            text-decoration: none;
           }
           .footer-container07 {
             flex: 0 0 auto;
@@ -194,7 +205,7 @@ const Footer = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-white);
           }
-          .footer-link2 {
+          .footer-link3 {
             display: contents;
           }
           .footer-icon08 {
@@ -224,7 +235,7 @@ const Footer = (props) => {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .footer-link3 {
+          .footer-link4 {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
