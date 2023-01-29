@@ -54,7 +54,15 @@ const Profile = (props) => {
             />
             <div className="profile-container04">
               <div className="profile-container05">
-                <PrimaryButton button="conectar"></PrimaryButton>
+                <a
+                  href="https://www.instagram.com/oprimojunior/"
+                  className="profile-link"
+                >
+                  <PrimaryButton
+                    button="conectar"
+                    className="profile-component4"
+                  ></PrimaryButton>
+                </a>
               </div>
               <SecondaryButton button="Mensagem"></SecondaryButton>
             </div>
@@ -75,8 +83,7 @@ const Profile = (props) => {
             </div>
             <div className="profile-container09"></div>
             <span className="profile-text3">
-              Hoje moro na grande capital paulista, antes tinha sonhos agora me
-              vejo com objetivo de construir minha própria empresa.
+              Meu propósito é desperta a a sua sabedoria
             </span>
             <span className="profile-text4">Ler mais</span>
           </div>
@@ -188,6 +195,12 @@ const Profile = (props) => {
             margin-right: var(--dl-space-space-unit);
             flex-direction: row;
             justify-content: center;
+          }
+          .profile-link {
+            display: contents;
+          }
+          .profile-component4 {
+            text-decoration: none;
           }
           .profile-container06 {
             flex: 0 0 auto;
