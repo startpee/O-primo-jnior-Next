@@ -262,7 +262,9 @@ const Footer = (props) => {
             color: var(--dl-color-secondary-500);
             align-self: center;
           }
-
+          .footer-root-class-name {
+            height: 100%;
+          }
           @media (max-width: 991px) {
             .footer-container01 {
               align-items: center;

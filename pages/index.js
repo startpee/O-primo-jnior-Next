@@ -185,7 +185,7 @@ const Home = (props) => {
             height: auto;
             display: flex;
             min-height: 100vh;
-            align-items: flex-start;
+            align-items: center;
             flex-direction: column;
           }
           .home-hero {
@@ -266,6 +266,7 @@ const Home = (props) => {
           .home-section2 {
             flex: 0 0 auto;
             width: 100%;
+            height: 100%;
             display: flex;
             align-self: center;
             align-items: center;

@@ -325,6 +325,7 @@ const Header = (props) => {
             }
             .header-root-class-name1 {
               width: 100%;
+              height: auto;
             }
           }
         `}
