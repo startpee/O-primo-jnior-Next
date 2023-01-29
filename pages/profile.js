@@ -13,7 +13,15 @@ const Profile = (props) => {
       <div className="profile-container">
         <Head>
           <title>Profile - O primo júnior</title>
+          <meta
+            name="description"
+            content="O meu proposito é te fazer ilimitado"
+          />
           <meta property="og:title" content="Profile - O primo júnior" />
+          <meta
+            property="og:description"
+            content="O meu proposito é te fazer ilimitado"
+          />
         </Head>
         <div className="profile-image">
           <Header></Header>

@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 class CustomDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="pt-br">
         <Head>
           <meta
             name="viewport"
@@ -25,6 +25,12 @@ class CustomDocument extends Document {
             }}
             data-tag="default-style-sheet"
           ></style>
+          <link
+            rel="shortcut icon"
+            href="/playground_assets/logopj.png"
+            type="icon/png"
+            sizes="32x32"
+          ></link>
           <noscript
             dangerouslySetInnerHTML={{
               __html:

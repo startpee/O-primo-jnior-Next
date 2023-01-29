@@ -14,7 +14,15 @@ const BlogPost = (props) => {
       <div className="blog-post-container">
         <Head>
           <title>BlogPost - O primo júnior</title>
+          <meta
+            name="description"
+            content="O meu proposito é te fazer ilimitado"
+          />
           <meta property="og:title" content="BlogPost - O primo júnior" />
+          <meta
+            property="og:description"
+            content="O meu proposito é te fazer ilimitado"
+          />
         </Head>
         <div className="blog-post-hero">
           <div className="blog-post-fixed-header">
@@ -72,7 +80,7 @@ const BlogPost = (props) => {
             </h3>
             <img
               alt="image"
-              src="/playground_assets/new-york-city-1400w.jpg"
+              src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
               className="blog-post-image"
             />
             <span className="blog-post-text11 TextLG">
@@ -173,7 +181,7 @@ const BlogPost = (props) => {
                 <div className="blog-post-container05">
                   <img
                     alt="image"
-                    src="/playground_assets/team5-1400w.jpg"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="blog-post-image2"
                   />
                   <div className="blog-post-container06">
@@ -198,7 +206,7 @@ const BlogPost = (props) => {
               </span>
               <img
                 alt="image"
-                src="/playground_assets/new-york-city-1400w.jpg"
+                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                 className="blog-post-image3"
               />
               <div className="blog-post-container08">
@@ -219,17 +227,17 @@ const BlogPost = (props) => {
                 <div className="blog-post-container10">
                   <img
                     alt="image"
-                    src="/playground_assets/team5-1400w.jpg"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="blog-post-image4"
                   />
                   <img
                     alt="image"
-                    src="/playground_assets/team6-200h.jpg"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="blog-post-image5"
                   />
                   <img
                     alt="image"
-                    src="/playground_assets/team1-200h.jpg"
+                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                     className="blog-post-image6"
                   />
                   <span className="blog-post-text43 TextXS">and 30+ more</span>
@@ -240,19 +248,19 @@ const BlogPost = (props) => {
               <PostReaction
                 name="Michael Lewis"
                 likes="3"
-                image_src="/playground_assets/team1-200h.jpg"
+                image_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
               ></PostReaction>
               <PostReaction
                 name="Jessica Stones"
                 text="I always felt like I could do anything. That’s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down."
                 shares="1"
-                image_src="/playground_assets/team6-200h.jpg"
+                image_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
               ></PostReaction>
               <span className="blog-post-text45 TextSM">Load next</span>
               <div className="blog-post-container11">
                 <img
                   alt="image"
-                  src="/playground_assets/team4-200h.png"
+                  src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                   className="blog-post-image7"
                 />
                 <textarea
@@ -276,20 +284,20 @@ const BlogPost = (props) => {
               short, and I do not want to drown myself, as others would like.
             </span>
           </div>
-          <ArticleCard avatar_src="/playground_assets/team3-200h.jpg"></ArticleCard>
+          <ArticleCard avatar_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"></ArticleCard>
           <ArticleCard
             name="Paul Smith"
             time="Drawn on 23 April"
             title="MateLabs mixes learning with IFTTT"
-            image_src="/playground_assets/team5-1400w.jpg"
-            avatar_src="/playground_assets/team1-200h.jpg"
+            image_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+            avatar_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
           ></ArticleCard>
           <ArticleCard
             name="Jasmine Taylor"
             time="Drawn on 23 April"
             title="US venture investment ticks up in Q2"
-            image_src="/playground_assets/team3-200h.jpg"
-            avatar_src="/playground_assets/team2-200h.jpg"
+            image_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+            avatar_src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
           ></ArticleCard>
         </div>
         <Footer></Footer>

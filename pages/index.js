@@ -15,7 +15,15 @@ const Home = (props) => {
       <div className="home-container">
         <Head>
           <title>O primo júnior</title>
+          <meta
+            name="description"
+            content="O meu proposito é te fazer ilimitado"
+          />
           <meta property="og:title" content="O primo júnior" />
+          <meta
+            property="og:description"
+            content="O meu proposito é te fazer ilimitado"
+          />
         </Head>
         <div className="home-hero">
           <div className="home-bg"></div>
@@ -216,20 +224,24 @@ const Home = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/pexels-caio-45917%20%5B2%5D-1500h.webp');
+            background-image: url('/playground_assets/pexels-caio-45917%20%5B2%5D%20%5B4%5D-1500h.webp');
           }
           .home-container02 {
+            height: 749px;
             display: flex;
             align-items: center;
-            padding-left: var(--dl-space-space-tripleunit);
             padding-right: var(--dl-space-space-tripleunit);
             flex-direction: column;
             justify-content: center;
           }
           .home-text {
-            color: var(--dl-color-gray-white);
+            color: #f9f7f7;
+            width: 780px;
+            height: 457px;
+            font-size: 3rem;
+            align-self: center;
             text-align: center;
-            margin-left: 130px;
+            margin-bottom: 237px;
           }
           .home-text01 {
             color: var(--dl-color-pimary-900);
@@ -613,6 +625,9 @@ const Home = (props) => {
             .home-container {
               align-items: center;
             }
+            .home-text {
+              color: rgb(253, 251, 251);
+            }
             .home-section2 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
@@ -644,6 +659,11 @@ const Home = (props) => {
             .home-container {
               align-items: center;
             }
+            .home-text {
+              color: #f3f3f3;
+              font-size: 3rem;
+              margin-top: 25px;
+            }
             .home-section1 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
@@ -670,25 +690,35 @@ const Home = (props) => {
               align-items: center;
             }
             .home-container01 {
-              left: 0px;
-              right: 0px;
+              top: -17px;
+              left: -2px;
               width: 100%;
               margin: auto;
             }
             .home-container02 {
+              width: 100%;
+              height: 582px;
               padding-left: var(--dl-space-space-doubleunit);
-              margin-bottom: var(--dl-space-space-unit);
+              margin-bottom: 44px;
               padding-right: var(--dl-space-space-doubleunit);
               padding-bottom: var(--dl-space-space-halfunit);
             }
             .home-text {
-              color: var(--dl-color-gray-white);
-              font-size: 1rem;
-              margin-top: 120px;
+              color: rgb(236, 224, 224);
+              width: 478px;
+              height: 97px;
+              font-size: 1.6rem;
+              margin-top: 116px;
               margin-left: 0px;
+              border-color: var(--dl-color-gray-900);
+              border-width: 0px;
+              margin-bottom: 629px;
             }
             .home-text01 {
               color: var(--dl-color-pimary-900);
+              font-size: 1rem;
+              font-style: normal;
+              font-weight: 700;
             }
             .home-section2 {
               width: 100%;
