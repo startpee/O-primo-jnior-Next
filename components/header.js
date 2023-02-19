@@ -280,7 +280,9 @@ const Header = (props) => {
           .header-root-class-name {
             margin-bottom: 0px;
           }
-
+          .header-root-class-name1 {
+            background-color: #020204;
+          }
           @media (max-width: 991px) {
             .header-header {
               max-width: 1320px;

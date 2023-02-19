@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-
 class CustomDocument extends Document {
   render() {
     return (
@@ -59,5 +58,4 @@ class CustomDocument extends Document {
     )
   }
 }
-
 export default CustomDocument
