@@ -49,7 +49,14 @@ const BlogPost = (props) => {
             </span>
             <br></br>
           </span>
-          <button className="blog-post-button button">Saiba mais</button>
+          <a
+            href="https://www.startpee.com/blog/"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="blog-post-link button"
+          >
+            Saiba mais
+          </a>
         </div>
         <div className="blog-post-container2"></div>
         <Footer></Footer>
@@ -157,10 +164,10 @@ const BlogPost = (props) => {
             color: rgb(148, 163, 184);
             align-self: center;
           }
-          .blog-post-button {
+          .blog-post-link {
             color: rgb(0, 0, 0);
             width: 291px;
-            height: 82px;
+            height: 90px;
             font-size: 2rem;
             align-self: center;
             font-style: normal;
@@ -169,6 +176,8 @@ const BlogPost = (props) => {
             margin-left: 54px;
             margin-right: 68px;
             padding-left: 53px;
+            margin-bottom: 65px;
+            text-decoration: none;
           }
           .blog-post-container2 {
             width: 100%;
