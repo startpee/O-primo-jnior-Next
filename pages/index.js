@@ -187,9 +187,8 @@ const Home = (props) => {
             flex-direction: column;
           }
           .home-hero {
-            flex: 0 0 auto;
             width: 100%;
-            height: 80vh;
+            height: 85px;
             display: flex;
             position: relative;
             align-items: center;
@@ -572,6 +571,9 @@ const Home = (props) => {
           @media (max-width: 991px) {
             .home-container {
               align-items: center;
+            }
+            .home-hero {
+              height: 65px;
             }
             .home-section2 {
               padding-left: var(--dl-space-space-doubleunit);
