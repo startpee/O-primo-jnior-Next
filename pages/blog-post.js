@@ -28,8 +28,8 @@ const BlogPost = (props) => {
           <div className="blog-post-fixed-header">
             <Header rootClassName="header-root-class-name"></Header>
           </div>
-          <h1 className="blog-post-text Text2XL">
-            Miami Beah is looking different at night!
+          <h1 className="blog-post-text">
+            Empreender sempre fez parte da minha vida
           </h1>
           <div className="blog-post-bg"></div>
         </div>
@@ -42,33 +42,14 @@ const BlogPost = (props) => {
               <path d="M585.143 292.571h-219.429v219.429h219.429v-219.429zM658.286 658.286v73.143h-365.714v-73.143h365.714zM658.286 219.429v365.714h-365.714v-365.714h365.714zM1024 658.286v73.143h-292.571v-73.143h292.571zM1024 512v73.143h-292.571v-73.143h292.571zM1024 365.714v73.143h-292.571v-73.143h292.571zM1024 219.429v73.143h-292.571v-73.143h292.571zM146.286 768v-548.571h-73.143v548.571c0 20 16.571 36.571 36.571 36.571s36.571-16.571 36.571-36.571zM1097.143 768v-621.714h-877.714v621.714c0 12.571-2.286 25.143-6.286 36.571h847.429c20 0 36.571-16.571 36.571-36.571zM1170.286 73.143v694.857c0 60.571-49.143 109.714-109.714 109.714h-950.857c-60.571 0-109.714-49.143-109.714-109.714v-621.714h146.286v-73.143h1024z"></path>
             </svg>
           </div>
-          <span className="blog-post-text1 TextXL">posted 18 Sept 2021</span>
+          <span className="blog-post-text1 TextXL">No blog da startpee</span>
           <span className="blog-post-text2">
-            <span className="blog-post-text3">
-              &apos;Started from the bottom now we here&apos;
-            </span>
-            <span className="blog-post-text4">
-              -
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
-            <span className="blog-post-text5">Mark Jonson</span>
-            <br></br>
-          </span>
-          <span className="blog-post-text6">
-            <span className="blog-post-text7">
-              As a result of growing emeraldhouse gas emissions, climate models
-              predict that our planet will get significantly warmer, that
-              ecosystems will be changed or destroyed, and that enormous human
-              and economic costs will be incurred. These scenarios aren’t
-              guaranteed, but avoiding them will be very hard. We’re trying to
-              take small steps to mitigate our impact.
+            <span>
+              Quero ajudar as pessoas a despertar a sabedoria nos negócios
             </span>
             <br></br>
           </span>
+          <button className="blog-post-button button">Saiba mais</button>
         </div>
         <div className="blog-post-container2"></div>
         <Footer></Footer>
@@ -93,7 +74,7 @@ const BlogPost = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: flex-start;
-            background-image: url('/playground_assets/photo-1-1500h.jpg');
+            background-image: url('/playground_assets/group-diverse-people-having-business-meeting-1500h.webp');
           }
           .blog-post-fixed-header {
             width: 100%;
@@ -118,12 +99,11 @@ const BlogPost = (props) => {
           }
           .blog-post-bg {
             top: auto;
-            flex: 0 0 auto;
             left: auto;
             right: 0px;
             width: 100%;
             bottom: auto;
-            height: 100%;
+            height: 474px;
             display: flex;
             opacity: 0.4;
             position: absolute;
@@ -133,8 +113,8 @@ const BlogPost = (props) => {
             background-color: var(--dl-color-gray-black);
           }
           .blog-post-post-details {
-            flex: 0 0 auto;
             width: 95%;
+            height: 287px;
             display: flex;
             position: relative;
             max-width: 1320px;
@@ -174,29 +154,21 @@ const BlogPost = (props) => {
             margin-top: var(--dl-space-space-tripleunit);
           }
           .blog-post-text2 {
-            color: #94a3b8ff;
+            color: rgb(148, 163, 184);
             align-self: center;
           }
-          .blog-post-text3 {
-            white-space: normal;
-          }
-          .blog-post-text4 {
-            white-space: normal;
-          }
-          .blog-post-text5 {
-            font-style: italic;
-          }
-          .blog-post-text6 {
-            color: var(--dl-color-gray-white);
-            font-size: 1rem;
+          .blog-post-button {
+            color: rgb(0, 0, 0);
+            width: 291px;
+            height: 82px;
+            font-size: 2rem;
+            align-self: center;
             font-style: normal;
-            text-align: center;
-            font-weight: 300;
-            padding-top: var(--dl-space-space-tripleunit);
-            padding-bottom: var(--dl-space-space-tripleunit);
-          }
-          .blog-post-text7 {
-            text-align: center;
+            margin-top: 34px;
+            font-weight: 700;
+            margin-left: 54px;
+            margin-right: 68px;
+            padding-left: 53px;
           }
           .blog-post-container2 {
             width: 100%;
