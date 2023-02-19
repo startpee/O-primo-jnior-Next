@@ -81,7 +81,7 @@ const Footer = (props) => {
                 Politica de privacidade
               </span>
               <a href="https://startpee.com/" className="footer-link5 TextSM">
-                Minha startup
+                Nossa startup
               </a>
             </div>
           </div>
