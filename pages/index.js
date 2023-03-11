@@ -62,7 +62,7 @@ const Home = (props) => {
               </div>
               <h3 className="home-text03 Healine">Meu propósito</h3>
               <span className="home-text04">
-                Servir as pessoas compartilhando a minha empreendedora
+                Servir as pessoas compartilhando a minha visão empreendedora.
               </span>
               <div className="home-container04">
                 <div className="home-container05">
