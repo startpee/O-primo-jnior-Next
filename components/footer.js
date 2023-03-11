@@ -9,9 +9,7 @@ const Footer = (props) => {
         <div className="footer-container01">
           <div className="footer-container02">
             <h1 className="footer-text TextXL">@oprimojunior</h1>
-            <span className="footer-text1">
-              Acompanha o primo em uma das redes
-            </span>
+            <span className="footer-text1">Acompanha o primo nas redes</span>
             <div className="footer-container03">
               <div className="footer-container04">
                 <a
@@ -305,6 +303,7 @@ const Footer = (props) => {
           }
           @media (max-width: 767px) {
             .footer-text1 {
+              color: var(--dl-color-secondary-500);
               text-align: center;
             }
             .footer-container08 {
