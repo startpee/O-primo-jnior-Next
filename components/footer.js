@@ -67,27 +67,34 @@ const Footer = (props) => {
           <div className="footer-container08">
             <div className="footer-container09">
               <span className="footer-text2">Link importante</span>
-              <span className="footer-text3 TextSM">Sobre</span>
+              <a
+                href="http://blog.primojunior.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="footer-link4 TextSM"
+              >
+                Meu blog 
+              </a>
               <a
                 href="https://api.whatsapp.com/send?phone=5511967272695"
-                className="footer-link4 TextSM"
+                className="footer-link5 TextSM"
               >
                 Fale comigo
               </a>
             </div>
             <div className="footer-container10">
-              <span className="footer-text4">empresa</span>
-              <span className="footer-text5 TextSM">
+              <span className="footer-text3">Nossa empresa</span>
+              <span className="footer-text4 TextSM">
                 Politica de privacidade
               </span>
-              <a href="https://startpee.com/" className="footer-link5 TextSM">
+              <a href="https://startpee.com/" className="footer-link6 TextSM">
                 Nossa startup
               </a>
             </div>
           </div>
         </div>
         <div className="footer-container11"></div>
-        <span className="footer-text6 TextSM">
+        <span className="footer-text5 TextSM">
           Copyright © 2023 O primo júnior
         </span>
       </div>
@@ -233,11 +240,12 @@ const Footer = (props) => {
             font-weight: 600;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .footer-text3 {
+          .footer-link4 {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
           }
-          .footer-link4 {
+          .footer-link5 {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
             text-decoration: none;
@@ -248,16 +256,16 @@ const Footer = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .footer-text4 {
+          .footer-text3 {
             color: var(--dl-color-secondary-400);
             font-weight: 600;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .footer-text5 {
+          .footer-text4 {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .footer-link5 {
+          .footer-link6 {
             color: var(--dl-color-secondary-500);
             text-decoration: none;
           }
@@ -272,7 +280,7 @@ const Footer = (props) => {
             flex-direction: column;
             background-color: #e3e8efff;
           }
-          .footer-text6 {
+          .footer-text5 {
             color: var(--dl-color-secondary-500);
             align-self: center;
           }
@@ -311,6 +319,10 @@ const Footer = (props) => {
             .footer-container10 {
               align-items: center;
             }
+            .footer-text3 {
+              color: var(--dl-color-secondary-400);
+              font-weight: 600;
+            }
             .footer-root-class-name {
               width: 100%;
               height: 100%;
@@ -322,7 +334,7 @@ const Footer = (props) => {
               font-style: normal;
               font-weight: 700;
             }
-            .footer-text4 {
+            .footer-text3 {
               color: var(--dl-color-secondary-400);
               font-style: normal;
               font-weight: 700;
