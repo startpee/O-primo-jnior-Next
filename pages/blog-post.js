@@ -42,7 +42,7 @@ const BlogPost = (props) => {
           <span className="blog-post-text">Nosso blog</span>
           <span className="blog-post-text1">
             <span>
-              Vou compartilhar alguns coselhos e um pouco da minha visão
+              Vou compartilhar alguns conselhos e um pouco da minha visão
             </span>
             <br></br>
           </span>
