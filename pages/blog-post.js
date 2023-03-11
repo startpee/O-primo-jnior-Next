@@ -47,7 +47,7 @@ const BlogPost = (props) => {
             <br></br>
           </span>
           <a
-            href="https://www.startpee.com/blog/"
+            href="https://blog.primojunior.com/"
             target="_blank"
             rel="noreferrer noopener"
             className="blog-post-link button"
