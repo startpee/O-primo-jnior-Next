@@ -169,6 +169,14 @@ const Home = (props) => {
             className="home-image1"
           />
         </div>
+        <div>
+          <DangerousHTML
+            html={`<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=5511967272695&text=olá" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>`}
+          ></DangerousHTML>
+        </div>
         <Footer rootClassName="footer-root-class-name"></Footer>
       </div>
       <style jsx>
