@@ -28,9 +28,6 @@ const BlogPost = (props) => {
           <div className="blog-post-fixed-header">
             <Header rootClassName="header-root-class-name"></Header>
           </div>
-          <h1 className="blog-post-text">
-            Empreender sempre fez parte da minha vida
-          </h1>
           <div className="blog-post-bg"></div>
         </div>
         <div className="blog-post-post-details">
@@ -42,10 +39,10 @@ const BlogPost = (props) => {
               <path d="M585.143 292.571h-219.429v219.429h219.429v-219.429zM658.286 658.286v73.143h-365.714v-73.143h365.714zM658.286 219.429v365.714h-365.714v-365.714h365.714zM1024 658.286v73.143h-292.571v-73.143h292.571zM1024 512v73.143h-292.571v-73.143h292.571zM1024 365.714v73.143h-292.571v-73.143h292.571zM1024 219.429v73.143h-292.571v-73.143h292.571zM146.286 768v-548.571h-73.143v548.571c0 20 16.571 36.571 36.571 36.571s36.571-16.571 36.571-36.571zM1097.143 768v-621.714h-877.714v621.714c0 12.571-2.286 25.143-6.286 36.571h847.429c20 0 36.571-16.571 36.571-36.571zM1170.286 73.143v694.857c0 60.571-49.143 109.714-109.714 109.714h-950.857c-60.571 0-109.714-49.143-109.714-109.714v-621.714h146.286v-73.143h1024z"></path>
             </svg>
           </div>
-          <span className="blog-post-text1 TextXL">No blog da startpee</span>
-          <span className="blog-post-text2">
+          <span className="blog-post-text">Nosso blog</span>
+          <span className="blog-post-text1">
             <span>
-              Quero ajudar as pessoas a despertar a sabedoria nos negócios
+              Vou compartilhar alguns coselhos e um pouco da minha visão
             </span>
             <br></br>
           </span>
@@ -55,7 +52,7 @@ const BlogPost = (props) => {
             rel="noreferrer noopener"
             className="blog-post-link button"
           >
-            Saiba mais
+            Visitar blog
           </a>
         </div>
         <div className="blog-post-container2"></div>
@@ -93,16 +90,6 @@ const BlogPost = (props) => {
             flex-direction: column;
             justify-content: flex-start;
             background-color: var(--dl-color-secondary-300);
-          }
-          .blog-post-text {
-            top: 0px;
-            left: 276px;
-            color: var(--dl-color-gray-white);
-            right: auto;
-            bottom: 0px;
-            margin: auto;
-            z-index: 100;
-            text-align: center;
           }
           .blog-post-bg {
             top: auto;
@@ -155,12 +142,12 @@ const BlogPost = (props) => {
             width: 24px;
             height: 24px;
           }
-          .blog-post-text1 {
+          .blog-post-text {
             color: var(--dl-color-gray-white);
             align-self: center;
             margin-top: var(--dl-space-space-tripleunit);
           }
-          .blog-post-text2 {
+          .blog-post-text1 {
             color: rgb(148, 163, 184);
             align-self: center;
           }
@@ -185,15 +172,20 @@ const BlogPost = (props) => {
             display: grid;
             grid-template-columns: repeat(12, 1fr);
           }
-          @media (max-width: 991px) {
-            .blog-post-text {
-              padding-left: var(--dl-space-space-tripleunit);
-              padding-right: var(--dl-space-space-tripleunit);
-            }
-          }
           @media (max-width: 767px) {
-            .blog-post-text2 {
+            .blog-post-text {
+              color: var(--dl-color-gray-white);
+            }
+            .blog-post-text1 {
+              color: rgb(148, 163, 184);
               text-align: center;
+            }
+            .blog-post-link {
+              color: rgb(0, 0, 0);
+              font-size: 2rem;
+              font-style: normal;
+              font-weight: 700;
+              text-decoration: none;
             }
           }
           @media (max-width: 479px) {
@@ -201,7 +193,7 @@ const BlogPost = (props) => {
               height: 510px;
               background-color: transparent;
             }
-            .blog-post-text2 {
+            .blog-post-text1 {
               text-align: center;
             }
             .blog-post-container2 {
