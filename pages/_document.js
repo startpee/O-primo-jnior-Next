@@ -33,7 +33,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!--This is the head section-->\r\n<!-- <style> ... </style> -->\r\n<!-- StorifyMe scripts -->\r\n      <script type="text/javascript" src="https://cdn.storifyme.com/static/web-components/storifyme-elements.min.js"></script>\r\n      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">\r\n<a href="https://api.whatsapp.com/send?phone=5511967272695&text=olá" class="float" target="_blank">\r\n<i class="fa fa-whatsapp my-float"></i>\r\n</a><noscript>',
+                '</noscript><!--This is the head section-->\r\n<!-- <style> ... </style> -->\r\n<!-- StorifyMe scripts -->\r\n      <script type="text/javascript" src="https://cdn.storifyme.com/static/web-components/storifyme-elements.min.js"></script>\r\n<noscript>',
             }}
           ></noscript>
         </Head>
@@ -50,7 +50,7 @@ class CustomDocument extends Document {
           <div
             dangerouslySetInnerHTML={{
               __html:
-                "<script src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>\r\n",
+                '<script src=\'https://unpkg.com/@teleporthq/teleport-custom-scripts\'></script>\r\n<link rel="stylesheet" href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css">\r\n<a id="robbu-whatsapp-button" target="_blank" href="https://api.whatsapp.com/send?phone=11967272695&text=oi,primo">\r\n  <div class="rwb-tooltip">Chama o primo</div>\r\n  <img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg">\r\n</a>',
             }}
           ></div>
         </body>
