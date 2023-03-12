@@ -50,7 +50,7 @@ class CustomDocument extends Document {
           <div
             dangerouslySetInnerHTML={{
               __html:
-                '<script src=\'https://unpkg.com/@teleporthq/teleport-custom-scripts\'></script>\r\n<link rel="stylesheet" href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css">\r\n<a id="robbu-whatsapp-button" target="_blank" href="https://api.whatsapp.com/send?phone=11967272695&text=oi,primo">\r\n  <div class="rwb-tooltip">Chama o primo</div>\r\n  <img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg">\r\n</a>',
+                "<script src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>\r\n",
             }}
           ></div>
         </body>
