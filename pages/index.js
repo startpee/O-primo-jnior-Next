@@ -555,6 +555,9 @@ const Home = (props) => {
             .home-text {
               text-align: center;
             }
+            .home-text05 {
+              font-size: 3rem;
+            }
             .home-section3 {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
@@ -619,6 +622,9 @@ const Home = (props) => {
             }
             .home-container02 {
               align-items: flex-start;
+            }
+            .home-text05 {
+              font-size: 3rem;
             }
             .home-text08 {
               text-align: center;
