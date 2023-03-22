@@ -51,7 +51,7 @@ const Home = (props) => {
           <div className="home-growing-company-section">
             <img
               alt="image"
-              src="/playground_assets/img_20230118_131316-1400w.webp"
+              src="/playground_assets/whatsapp%20image%202023-02-26%20at%2022.17.55-1400w.jpeg"
               className="home-image"
             />
             <div className="home-container02">
@@ -65,14 +65,6 @@ const Home = (props) => {
                 Servir as pessoas compartilhando a minha visão empreendedora.
               </span>
               <div className="home-container04">
-                <div className="home-container05">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon2"
-                  >
-                    <path d="M391.429 742.286l350.857-350.857c14.286-14.286 14.286-37.143 0-51.429l-58.286-58.286c-14.286-14.286-37.143-14.286-51.429 0l-266.857 266.857-120.571-120.571c-14.286-14.286-37.143-14.286-51.429 0l-58.286 58.286c-14.286 14.286-14.286 37.143 0 51.429l204.571 204.571c14.286 14.286 37.143 14.286 51.429 0zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"></path>
-                  </svg>
-                </div>
                 <span className="home-text05">#vailaefaz</span>
               </div>
             </div>
@@ -80,7 +72,7 @@ const Home = (props) => {
           <div className="home-team"></div>
         </div>
         <div className="home-section3">
-          <div className="home-container06">
+          <div className="home-container05">
             <h6 className="home-text06 TextSM">
               <span>ON THE COASTLINE</span>
             </h6>
@@ -95,9 +87,9 @@ const Home = (props) => {
             </span>
             <div className="home-services">
               <ServiceCard></ServiceCard>
-              <div className="home-container07">
-                <div className="home-container08">
-                  <svg viewBox="0 0 1024 1024" className="home-icon4">
+              <div className="home-container06">
+                <div className="home-container07">
+                  <svg viewBox="0 0 1024 1024" className="home-icon2">
                     <path d="M832 192v-128h-640v128h-192v128c0 106.038 85.958 192 192 192 20.076 0 39.43-3.086 57.62-8.802 46.174 66.008 116.608 113.796 198.38 130.396v198.406h-64c-70.694 0-128 57.306-128 128h512c0-70.694-57.306-128-128-128h-64v-198.406c81.772-16.6 152.206-64.386 198.38-130.396 18.19 5.716 37.544 8.802 57.62 8.802 106.042 0 192-85.962 192-192v-128h-192zM192 436c-63.962 0-116-52.038-116-116v-64h116v64c0 40.186 7.43 78.632 20.954 114.068-6.802 1.246-13.798 1.932-20.954 1.932zM948 320c0 63.962-52.038 116-116 116-7.156 0-14.152-0.686-20.954-1.932 13.524-35.436 20.954-73.882 20.954-114.068v-64h116v64z"></path>
                   </svg>
                 </div>
@@ -107,9 +99,9 @@ const Home = (props) => {
                   the bulk of the card&apos;s content.
                 </span>
               </div>
-              <div className="home-container09">
-                <div className="home-container10">
-                  <svg viewBox="0 0 1024 1024" className="home-icon6">
+              <div className="home-container08">
+                <div className="home-container09">
+                  <svg viewBox="0 0 1024 1024" className="home-icon4">
                     <path d="M726 726v-172h-86v172h86zM554 726v-428h-84v428h84zM384 726v-300h-86v300h86zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-34 0-60-26t-26-60v-596q0-34 26-60t60-26h596z"></path>
                   </svg>
                 </div>
@@ -154,7 +146,7 @@ const Home = (props) => {
                   placeholder="Type a message"
                   className="home-textarea TextSM textarea"
                 ></textarea>
-                <div className="home-container11">
+                <div className="home-container10">
                   <SecondaryButton
                     button="Send message"
                     rootClassName="secondary-button-root-class-name"
@@ -301,24 +293,10 @@ const Home = (props) => {
             flex-direction: row;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .home-container05 {
-            flex: 0 0 auto;
-            width: 2rem;
-            height: 2rem;
-            display: flex;
-            align-items: center;
-            margin-right: 0.75rem;
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            justify-content: center;
-            background-color: var(--dl-color-pimary-700);
-          }
-          .home-icon2 {
-            width: 24px;
-            height: 24px;
-          }
           .home-text05 {
             color: var(--dl-color-secondary-400);
+            font-size: 4rem;
+            font-weight: 700;
           }
           .home-team {
             flex: 0 0 auto;
@@ -343,7 +321,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fiveunits);
             background-color: var(--dl-color-secondary-100);
           }
-          .home-container06 {
+          .home-container05 {
             width: 100%;
             display: flex;
             max-width: 1320px;
@@ -378,7 +356,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-container07 {
+          .home-container06 {
             flex: 0 0 auto;
             width: 30%;
             display: flex;
@@ -387,7 +365,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .home-container08 {
+          .home-container07 {
             flex: 0 0 auto;
             width: 48px;
             height: 48px;
@@ -398,7 +376,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #f2f5f9ff;
           }
-          .home-icon4 {
+          .home-icon2 {
             width: 24px;
             height: 24px;
           }
@@ -412,7 +390,7 @@ const Home = (props) => {
             font-size: 1.25rem;
             text-align: center;
           }
-          .home-container09 {
+          .home-container08 {
             flex: 0 0 auto;
             width: 30%;
             display: flex;
@@ -421,7 +399,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .home-container10 {
+          .home-container09 {
             flex: 0 0 auto;
             width: 48px;
             height: 48px;
@@ -432,7 +410,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #f2f5f9ff;
           }
-          .home-icon6 {
+          .home-icon4 {
             width: 24px;
             height: 24px;
           }
@@ -547,7 +525,7 @@ const Home = (props) => {
             color: var(--dl-color-secondary-500);
             box-shadow: 0 0 0 2px #4aa4e3;
           }
-          .home-container11 {
+          .home-container10 {
             display: flex;
             align-self: center;
             margin-top: var(--dl-space-space-unit);
@@ -581,18 +559,18 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .home-container06 {
+            .home-container05 {
               width: 100%;
             }
             .home-services {
               align-items: center;
               flex-direction: column;
             }
-            .home-container07 {
+            .home-container06 {
               width: 100%;
               padding-bottom: var(--dl-space-space-doubleunit);
             }
-            .home-container09 {
+            .home-container08 {
               width: 100%;
               padding-bottom: var(--dl-space-space-doubleunit);
             }
