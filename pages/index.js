@@ -309,7 +309,9 @@ const Home = (props) => {
           }
           .home-text06 {
             color: var(--dl-color-secondary-400);
+            font-size: 1.5rem;
             margin-top: var(--dl-space-space-unit);
+            text-align: center;
             margin-bottom: var(--dl-space-space-unitandhalf);
           }
           .home-container04 {
@@ -630,6 +632,10 @@ const Home = (props) => {
             .home-text {
               text-align: center;
             }
+            .home-text06 {
+              font-size: 1.5rem;
+              text-align: center;
+            }
             .home-text07 {
               font-size: 3rem;
             }
@@ -705,6 +711,9 @@ const Home = (props) => {
             }
             .home-container02 {
               align-items: flex-start;
+            }
+            .home-text06 {
+              font-size: 1.5rem;
             }
             .home-text07 {
               font-size: 3rem;
