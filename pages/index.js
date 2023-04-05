@@ -710,6 +710,7 @@ const Home = (props) => {
             }
             .home-section2 {
               width: 100%;
+              margin-bottom: 70px;
             }
             .home-container02 {
               align-items: flex-start;
