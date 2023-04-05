@@ -747,9 +747,10 @@ const Home = (props) => {
               padding-right: 16px;
             }
             .home-container04 {
-              width: 53px;
-              height: 44px;
+              width: 41px;
+              height: 39px;
               margin-top: 22px;
+              margin-left: 5px;
             }
             .home-text06 {
               font-size: 3rem;

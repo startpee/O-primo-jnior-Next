@@ -297,6 +297,14 @@ const Footer = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .footer-container08 {
+              width: 393px;
+              margin-left: 4px;
+              margin-right: 0px;
+            }
+            .footer-container09 {
+              margin-left: 114px;
+            }
             .footer-text2 {
               color: var(--dl-color-secondary-400);
               font-style: normal;
