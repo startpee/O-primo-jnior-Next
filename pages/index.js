@@ -726,7 +726,10 @@ const Home = (props) => {
               width: 100%;
             }
             .home-container02 {
+              width: 389px;
               align-items: flex-start;
+              margin-left: 31px;
+              margin-right: 42px;
             }
             .home-text05 {
               color: var(--dl-color-secondary-400);
@@ -738,9 +741,13 @@ const Home = (props) => {
               font-weight: 700;
             }
             .home-container03 {
+              width: 331px;
               height: 118px;
+              padding-right: 16px;
             }
             .home-container04 {
+              width: 53px;
+              height: 44px;
               margin-top: 22px;
             }
             .home-text06 {
