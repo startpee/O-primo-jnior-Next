@@ -11,8 +11,8 @@ const Header = (props) => {
         className={`header-header ${props.rootClassName} `}
       >
         <img
-          src={props.image_src2}
           alt={props.image_alt2}
+          src={props.image_src2}
           className="header-image"
         />
         <div className="header-container">
@@ -414,21 +414,21 @@ const Header = (props) => {
 Header.defaultProps = {
   rootClassName: '',
   image_alt: 'image',
+  image_src2: '/playground_assets/primo-1500h.png',
+  image_alt2: 'image',
   image_alt1: 'image',
   image_src: '/playground_assets/primojunior%20%5B1%5D-200h.png',
   image_src1: '/playground_assets/primo-1500h.png',
-  image_src2: '/playground_assets/primo-1500h.png',
-  image_alt2: 'image',
 }
 
 Header.propTypes = {
   rootClassName: PropTypes.string,
   image_alt: PropTypes.string,
+  image_src2: PropTypes.string,
+  image_alt2: PropTypes.string,
   image_alt1: PropTypes.string,
   image_src: PropTypes.string,
   image_src1: PropTypes.string,
-  image_src2: PropTypes.string,
-  image_alt2: PropTypes.string,
 }
 
 export default Header

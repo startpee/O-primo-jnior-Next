@@ -64,14 +64,12 @@ const Footer = (props) => {
           </div>
           <div className="footer-container08">
             <div className="footer-container09">
-              <span className="footer-text2">Link importante</span>
-              <a
-                href="http://blog.primojunior.com/"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="footer-link4 TextSM"
-              >
-                Meu blog 
+              <span className="footer-text2">Nossa empresa</span>
+              <span className="footer-text3 TextSM">
+                Politica de privacidade
+              </span>
+              <a href="https://startpee.com/" className="footer-link4 TextSM">
+                Nosso projeto
               </a>
               <a
                 href="https://api.whatsapp.com/send?phone=5511967272695"
@@ -80,19 +78,10 @@ const Footer = (props) => {
                 Fale comigo
               </a>
             </div>
-            <div className="footer-container10">
-              <span className="footer-text3">Nossa empresa</span>
-              <span className="footer-text4 TextSM">
-                Politica de privacidade
-              </span>
-              <a href="https://startpee.com/" className="footer-link6 TextSM">
-                Nosso projeto
-              </a>
-            </div>
           </div>
         </div>
-        <div className="footer-container11"></div>
-        <span className="footer-text5 TextSM">
+        <div className="footer-container10"></div>
+        <span className="footer-text4 TextSM">
           Copyright © 2023 O primo júnior
         </span>
       </div>
@@ -229,8 +218,8 @@ const Footer = (props) => {
           .footer-container09 {
             flex: 0 0 auto;
             display: flex;
-            align-items: flex-start;
-            margin-right: 6rem;
+            align-items: center;
+            margin-right: 100px;
             flex-direction: column;
           }
           .footer-text2 {
@@ -238,9 +227,12 @@ const Footer = (props) => {
             font-weight: 600;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .footer-link4 {
+          .footer-text3 {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .footer-link4 {
+            color: var(--dl-color-secondary-500);
             text-decoration: none;
           }
           .footer-link5 {
@@ -249,25 +241,6 @@ const Footer = (props) => {
             text-decoration: none;
           }
           .footer-container10 {
-            flex: 0 0 auto;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .footer-text3 {
-            color: var(--dl-color-secondary-400);
-            font-weight: 600;
-            padding-bottom: var(--dl-space-space-halfunit);
-          }
-          .footer-text4 {
-            color: var(--dl-color-secondary-500);
-            padding-bottom: var(--dl-space-space-halfunit);
-          }
-          .footer-link6 {
-            color: var(--dl-color-secondary-500);
-            text-decoration: none;
-          }
-          .footer-container11 {
             flex: 0 0 auto;
             width: 100%;
             height: 1px;
@@ -278,7 +251,7 @@ const Footer = (props) => {
             flex-direction: column;
             background-color: #e3e8efff;
           }
-          .footer-text5 {
+          .footer-text4 {
             color: var(--dl-color-secondary-500);
             align-self: center;
           }
@@ -297,9 +270,6 @@ const Footer = (props) => {
             .footer-container09 {
               align-items: center;
             }
-            .footer-container10 {
-              align-items: center;
-            }
           }
           @media (max-width: 767px) {
             .footer-text1 {
@@ -312,15 +282,14 @@ const Footer = (props) => {
             }
             .footer-container09 {
               align-items: center;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-doubleunit);
             }
-            .footer-container10 {
-              align-items: center;
-            }
-            .footer-text3 {
+            .footer-text2 {
               color: var(--dl-color-secondary-400);
               font-weight: 600;
+            }
+            .footer-link4 {
+              margin-top: 10px;
+              margin-bottom: 10px;
             }
             .footer-root-class-name {
               width: 100%;
@@ -329,11 +298,6 @@ const Footer = (props) => {
           }
           @media (max-width: 479px) {
             .footer-text2 {
-              color: var(--dl-color-secondary-400);
-              font-style: normal;
-              font-weight: 700;
-            }
-            .footer-text3 {
               color: var(--dl-color-secondary-400);
               font-style: normal;
               font-weight: 700;
