@@ -96,11 +96,6 @@ const Home = (props) => {
             ></video>
           </div>
           <div className="home-banner1">
-            <video
-              src
-              poster="https://play.teleporthq.io/static/svg/videoposter.svg"
-              className="home-video1"
-            ></video>
             <h1 className="home-text11">Quer fazer parte do nosso projeto?</h1>
             <span className="home-text12">
               juntos nós tornamos forte e crescemos 
@@ -356,6 +351,7 @@ const Home = (props) => {
             height: 523px;
             display: flex;
             padding: 48px;
+            margin-top: 112px;
             align-items: center;
             margin-bottom: 103px;
             flex-direction: column;
@@ -375,15 +371,13 @@ const Home = (props) => {
           }
           .home-banner1 {
             width: 100%;
+            height: 392px;
             display: flex;
             padding: 48px;
+            margin-top: 85px;
             align-items: center;
             flex-direction: column;
             justify-content: space-between;
-          }
-          .home-video1 {
-            width: 320px;
-            height: 180px;
           }
           .home-text11 {
             color: #6c77fb;
