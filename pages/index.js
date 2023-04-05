@@ -729,8 +729,8 @@ const Home = (props) => {
             .home-container02 {
               width: 389px;
               align-items: flex-start;
-              margin-left: 31px;
-              margin-right: 31px;
+              margin-left: 27px;
+              margin-right: 27px;
             }
             .home-text05 {
               color: var(--dl-color-secondary-400);
