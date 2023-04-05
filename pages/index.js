@@ -76,16 +76,31 @@ const Home = (props) => {
               </div>
             </div>
           </div>
+          <div className="home-banner">
+            <h1 className="home-text08">Quer fazer parte do nosso projeto?</h1>
+            <span className="home-text09">
+              juntos nós tornamos forte e crescemos 
+            </span>
+            <div className="home-btn-group">
+              <a
+                href="https://api.whatsapp.com/send?phone=5511967272695"
+                className="home-link button"
+              >
+                Falar comigo
+              </a>
+              <button className="home-button button">Saiba mais</button>
+            </div>
+          </div>
           <div className="home-team"></div>
         </div>
         <div className="home-section3">
           <div className="home-container05">
-            <h6 className="home-text08 TextSM">
+            <h6 className="home-text10 TextSM">
               <span>ON THE COASTLINE</span>
             </h6>
-            <h3 className="home-text10 Healine">We are missing the summer</h3>
-            <span className="home-text11 TextXL">
-              <span className="home-text12">
+            <h3 className="home-text12 Healine">We are missing the summer</h3>
+            <span className="home-text13 TextXL">
+              <span className="home-text14">
                 We&apos;re waiting for the weather to warm up so that we can go
                 to the coastline. We really miss the summertime, our second home
                 the coastline.
@@ -100,8 +115,8 @@ const Home = (props) => {
                     <path d="M832 192v-128h-640v128h-192v128c0 106.038 85.958 192 192 192 20.076 0 39.43-3.086 57.62-8.802 46.174 66.008 116.608 113.796 198.38 130.396v198.406h-64c-70.694 0-128 57.306-128 128h512c0-70.694-57.306-128-128-128h-64v-198.406c81.772-16.6 152.206-64.386 198.38-130.396 18.19 5.716 37.544 8.802 57.62 8.802 106.042 0 192-85.962 192-192v-128h-192zM192 436c-63.962 0-116-52.038-116-116v-64h116v64c0 40.186 7.43 78.632 20.954 114.068-6.802 1.246-13.798 1.932-20.954 1.932zM948 320c0 63.962-52.038 116-116 116-7.156 0-14.152-0.686-20.954-1.932 13.524-35.436 20.954-73.882 20.954-114.068v-64h116v64z"></path>
                   </svg>
                 </div>
-                <h1 className="home-text13 TextXL">Grow your market</h1>
-                <span className="home-text14">
+                <h1 className="home-text15 TextXL">Grow your market</h1>
+                <span className="home-text16">
                   Some quick example text to build on the card title and make up
                   the bulk of the card&apos;s content.
                 </span>
@@ -112,8 +127,8 @@ const Home = (props) => {
                     <path d="M726 726v-172h-86v172h86zM554 726v-428h-84v428h84zM384 726v-300h-86v300h86zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-34 0-60-26t-26-60v-596q0-34 26-60t60-26h596z"></path>
                   </svg>
                 </div>
-                <h1 className="home-text15 TextXL">Launch time</h1>
-                <span className="home-text16">
+                <h1 className="home-text17 TextXL">Launch time</h1>
+                <span className="home-text18">
                   Some quick example text to build on the card title and make up
                   the bulk of the card&apos;s content.
                 </span>
@@ -121,31 +136,31 @@ const Home = (props) => {
             </div>
             <div className="home-contact">
               <Label text="MESSAGE US"></Label>
-              <h2 className="home-text17">Type in the bellow form</h2>
-              <span className="home-text18 TextXL">
+              <h2 className="home-text19">Type in the bellow form</h2>
+              <span className="home-text20 TextXL">
                 They say there&apos;s no future for the street rascals, nothing
                 for them, leave them to fall. But it isn&apos;t always how you
                 would like it to be, especially when you do nothing for
                 yourself.
               </span>
               <div className="home-form">
-                <h1 className="home-text19">Want to work with us?</h1>
-                <span className="home-text20 TextXL">
+                <h1 className="home-text21">Want to work with us?</h1>
+                <span className="home-text22 TextXL">
                   Complete this form and we will get back to you in 24 hours.
                 </span>
-                <span className="home-text21 TextXS">FULL NAME</span>
+                <span className="home-text23 TextXS">FULL NAME</span>
                 <input
                   type="text"
                   placeholder="Full Name"
                   className="home-textinput TextSM input"
                 />
-                <span className="home-text22 TextXS">EMAIL</span>
+                <span className="home-text24 TextXS">EMAIL</span>
                 <input
                   type="text"
                   placeholder="Email"
                   className="home-textinput1 TextSM input"
                 />
-                <span className="home-text23 TextXS">MESSAGE</span>
+                <span className="home-text25 TextXS">MESSAGE</span>
                 <textarea
                   cols="80"
                   rows="4"
@@ -310,6 +325,54 @@ const Home = (props) => {
             font-size: 4rem;
             font-weight: 700;
           }
+          .home-banner {
+            width: 100%;
+            display: flex;
+            padding: 48px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .home-text08 {
+            color: #6c77fb;
+            font-size: 3rem;
+            text-align: center;
+          }
+          .home-text09 {
+            max-width: 1400px;
+            margin-top: 32px;
+            text-align: center;
+            margin-bottom: 32px;
+          }
+          .home-btn-group {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+          }
+          .home-link {
+            color: var(--dl-color-gray-white);
+            transition: 0.3s;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+            background-color: var(--dl-color-gray-black);
+          }
+          .home-link:hover {
+            transform: scale(1.02);
+          }
+          .home-button {
+            transition: 0.3s;
+            margin-left: var(--dl-space-space-unit);
+            padding-top: var(--dl-space-space-unit);
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-bottom: var(--dl-space-space-unit);
+          }
+          .home-button:hover {
+            transform: scale(1.02);
+          }
           .home-team {
             flex: 0 0 auto;
             width: 100%;
@@ -342,20 +405,20 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .home-text08 {
+          .home-text10 {
             font-style: normal;
             font-weight: 700;
           }
-          .home-text10 {
+          .home-text12 {
             color: var(--dl-color-gray-white);
           }
-          .home-text11 {
+          .home-text13 {
             width: 80%;
             text-align: center;
             font-weight: 300;
             margin-bottom: 0.25rem;
           }
-          .home-text12 {
+          .home-text14 {
             white-space: normal;
           }
           .home-services {
@@ -392,12 +455,12 @@ const Home = (props) => {
             width: 24px;
             height: 24px;
           }
-          .home-text13 {
+          .home-text15 {
             color: var(--dl-color-gray-white);
             margin-top: var(--dl-space-space-unitandhalf);
             font-weight: 600;
           }
-          .home-text14 {
+          .home-text16 {
             color: rgba(100, 116, 139, 1);
             font-size: 1.25rem;
             text-align: center;
@@ -426,12 +489,12 @@ const Home = (props) => {
             width: 24px;
             height: 24px;
           }
-          .home-text15 {
+          .home-text17 {
             color: var(--dl-color-gray-white);
             margin-top: var(--dl-space-space-unitandhalf);
             font-weight: 600;
           }
-          .home-text16 {
+          .home-text18 {
             color: rgba(100, 116, 139, 1);
             font-size: 1.25rem;
             text-align: center;
@@ -443,11 +506,11 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-doubleunit);
             flex-direction: column;
           }
-          .home-text17 {
+          .home-text19 {
             color: var(--dl-color-gray-white);
             margin-top: var(--dl-space-space-halfunit);
           }
-          .home-text18 {
+          .home-text20 {
             color: rgba(255, 255, 255, 0.75);
             width: 80%;
             text-align: center;
@@ -465,16 +528,16 @@ const Home = (props) => {
             flex-direction: column;
             background-color: var(--dl-color-pimary-800);
           }
-          .home-text19 {
+          .home-text21 {
             color: var(--dl-color-secondary-400);
             font-size: 1.5rem;
             font-weight: 600;
             line-height: 2rem;
           }
-          .home-text20 {
+          .home-text22 {
             color: rgba(100, 116, 139, 1);
           }
-          .home-text21 {
+          .home-text23 {
             color: rgba(100, 116, 139, 1);
             margin-top: var(--dl-space-space-halfunit);
             margin-left: 0.25rem;
@@ -495,7 +558,7 @@ const Home = (props) => {
             color: var(--dl-color-secondary-500);
             box-shadow: 0 0 0 2px#4AA4E3;
           }
-          .home-text22 {
+          .home-text24 {
             color: rgba(100, 116, 139, 1);
             margin-top: var(--dl-space-space-halfunit);
             margin-left: 0.25rem;
@@ -516,7 +579,7 @@ const Home = (props) => {
             color: var(--dl-color-secondary-500);
             box-shadow: 0 0 0 2px#4AA4E3;
           }
-          .home-text23 {
+          .home-text25 {
             color: rgba(100, 116, 139, 1);
             margin-top: var(--dl-space-space-halfunit);
             margin-left: 0.25rem;
@@ -617,6 +680,14 @@ const Home = (props) => {
             .home-text07 {
               color: var(--dl-color-secondary-400);
             }
+            .home-banner {
+              padding-left: 32px;
+              padding-right: 32px;
+            }
+            .home-text09 {
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+            }
             .home-form {
               width: 100%;
             }
@@ -638,13 +709,26 @@ const Home = (props) => {
             .home-text07 {
               font-size: 3rem;
             }
-            .home-text10 {
-              text-align: center;
+            .home-banner {
+              padding-top: 32px;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: 32px;
             }
-            .home-text17 {
+            .home-btn-group {
+              flex-direction: column;
+            }
+            .home-button {
+              margin-top: var(--dl-space-space-unit);
+              margin-left: 0px;
+            }
+            .home-text12 {
               text-align: center;
             }
             .home-text19 {
+              text-align: center;
+            }
+            .home-text21 {
               text-align: left;
             }
           }
