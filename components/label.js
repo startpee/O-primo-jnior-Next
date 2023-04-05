@@ -34,7 +34,7 @@ const Label = (props) => {
 }
 
 Label.defaultProps = {
-  text: 'Text',
+  text: 'Eu vou ser o próximo elon musk',
 }
 
 Label.propTypes = {
