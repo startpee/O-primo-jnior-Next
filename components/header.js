@@ -100,7 +100,7 @@ const Header = (props) => {
                     <path d="M736 704h-448c-17.672 0-32-14.326-32-32s14.328-32 32-32h448c17.674 0 32 14.326 32 32s-14.326 32-32 32z"></path>
                     <path d="M736 576h-448c-17.672 0-32-14.326-32-32s14.328-32 32-32h448c17.674 0 32 14.326 32 32s-14.326 32-32 32z"></path>
                   </svg>
-                  <span className="header-text5 TextSM">Projeto</span>
+                  <span className="header-text5 TextSM">NOSSO PROJETO</span>
                 </div>
               </a>
             </Link>
