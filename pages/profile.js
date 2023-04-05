@@ -88,18 +88,21 @@ const Profile = (props) => {
             <div className="profile-container09"></div>
             <span className="profile-text03">
               <span className="profile-text04">
-                Nascido em 1994 em jaru Rondônia
+                Nascido em 1994 em Jaru
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
               <br></br>
-              <span>Piauí,Amazonas,Maranhão,Rondônia</span>
-              <br></br>
               <span>
-                eu conheço esses estado porque o meu pai era quase um Nômade
+                Sou uma pessoa inquieta, Sempre em buscar de aprender 
               </span>
               <br></br>
               <br></br>
             </span>
-            <span className="profile-text11">Ler mais</span>
+            <span className="profile-text09">Ler mais</span>
           </div>
         </div>
         <Footer></Footer>
@@ -287,13 +290,13 @@ const Profile = (props) => {
             text-align: center;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .profile-text11 {
+          .profile-text09 {
             color: var(--dl-color-pimary-500);
             font-style: normal;
             transition: 0.3s;
             font-weight: 500;
           }
-          .profile-text11:hover {
+          .profile-text09:hover {
             color: var(--dl-color-pimary-300);
           }
           @media (max-width: 991px) {
@@ -306,16 +309,23 @@ const Profile = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .profile-container06 {
+              margin-left: 6px;
+              margin-right: 6px;
+            }
             .profile-text02 {
               color: var(--dl-color-secondary-500);
             }
             .profile-text03 {
               color: var(--dl-color-secondary-300);
               font-size: 1.125rem;
+              margin-top: 6px;
               font-weight: 300;
               line-height: 1.625;
+              margin-left: 6px;
+              margin-right: 6px;
             }
-            .profile-text11 {
+            .profile-text09 {
               color: var(--dl-color-pimary-500);
               font-style: normal;
               font-weight: 500;
