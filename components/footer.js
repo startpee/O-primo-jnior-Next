@@ -303,6 +303,7 @@ const Footer = (props) => {
               margin-right: 0px;
             }
             .footer-container09 {
+              margin-top: 25px;
               margin-left: 114px;
             }
             .footer-text2 {
