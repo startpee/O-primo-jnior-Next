@@ -294,7 +294,7 @@ const Home = (props) => {
           }
           .home-text05 {
             color: var(--dl-color-secondary-400);
-            font-size: 2rem;
+            font-size: 1.3rem;
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
             text-align: center;
@@ -697,6 +697,7 @@ const Home = (props) => {
             }
             .home-text05 {
               color: var(--dl-color-secondary-400);
+              font-size: 1.7rem;
               box-shadow: inherit;
             }
             .home-text06 {
@@ -733,7 +734,7 @@ const Home = (props) => {
             }
             .home-text05 {
               color: var(--dl-color-secondary-400);
-              font-size: 1.5rem;
+              font-size: 1rem;
               box-shadow: inherit;
               font-style: normal;
               text-align: center;
