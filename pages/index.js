@@ -69,7 +69,7 @@ const Home = (props) => {
               </div>
               <h3 className="home-text05 Healine">Meu propósito</h3>
               <span className="home-text06">
-                Servir as pessoas compartilhando a minha visão empreendedora.
+                Servir as pessoas com a minha visão empreendedora.
               </span>
               <div className="home-container04">
                 <span className="home-text07">#vailaefaz</span>
@@ -715,6 +715,7 @@ const Home = (props) => {
               align-items: flex-start;
             }
             .home-text06 {
+              color: var(--dl-color-secondary-400);
               font-size: 1.5rem;
             }
             .home-text07 {
