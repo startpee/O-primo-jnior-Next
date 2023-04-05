@@ -715,6 +715,9 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: 32px;
             }
+            .home-text08 {
+              font-size: 2rem;
+            }
             .home-btn-group {
               flex-direction: column;
             }
