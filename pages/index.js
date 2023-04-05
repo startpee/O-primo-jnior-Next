@@ -341,6 +341,7 @@ const Home = (props) => {
             padding: 48px;
             margin-top: 85px;
             align-items: center;
+            margin-bottom: 37px;
             flex-direction: column;
             justify-content: space-between;
           }
@@ -723,7 +724,6 @@ const Home = (props) => {
             }
             .home-section2 {
               width: 100%;
-              margin-bottom: 70px;
             }
             .home-container02 {
               align-items: flex-start;

@@ -10,11 +10,16 @@ const Header = (props) => {
         data-role="Header"
         className={`header-header ${props.rootClassName} `}
       >
+        <img
+          src={props.image_src2}
+          alt={props.image_alt2}
+          className="header-image"
+        />
         <div className="header-container">
           <img
             alt={props.image_alt}
             src={props.image_src}
-            className="header-image"
+            className="header-image1"
           />
           <Link href="/profile">
             <a className="header-link">
@@ -59,7 +64,7 @@ const Header = (props) => {
             <img
               alt={props.image_alt1}
               src={props.image_src1}
-              className="header-image1"
+              className="header-image2"
             />
             <div data-role="CloseMobileMenu" className="header-close-menu">
               <svg viewBox="0 0 1024 1024" className="header-icon14">
@@ -133,13 +138,17 @@ const Header = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
+          .header-image {
+            width: 100px;
+            object-fit: cover;
+          }
           .header-container {
             display: flex;
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .header-image {
+          .header-image1 {
             width: 100px;
             object-fit: cover;
             margin-left: var(--dl-space-space-unit);
@@ -231,7 +240,7 @@ const Header = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .header-image1 {
+          .header-image2 {
             width: 100px;
             object-fit: cover;
           }
@@ -408,6 +417,8 @@ Header.defaultProps = {
   image_alt1: 'image',
   image_src: '/playground_assets/primojunior%20%5B1%5D-200h.png',
   image_src1: '/playground_assets/primo-1500h.png',
+  image_src2: '/playground_assets/primo-1500h.png',
+  image_alt2: 'image',
 }
 
 Header.propTypes = {
@@ -416,6 +427,8 @@ Header.propTypes = {
   image_alt1: PropTypes.string,
   image_src: PropTypes.string,
   image_src1: PropTypes.string,
+  image_src2: PropTypes.string,
+  image_alt2: PropTypes.string,
 }
 
 export default Header
