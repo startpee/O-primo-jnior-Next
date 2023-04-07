@@ -235,11 +235,13 @@ const Footer = (props) => {
           }
           .footer-link4 {
             color: var(--dl-color-secondary-500);
+            margin-top: 6px;
             text-decoration: none;
           }
           .footer-link5 {
             color: var(--dl-color-secondary-500);
-            padding-bottom: var(--dl-space-space-halfunit);
+            padding-top: 6px;
+            padding-bottom: 6px;
             text-decoration: none;
           }
           .footer-container10 {
