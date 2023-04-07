@@ -68,12 +68,20 @@ const Footer = (props) => {
               <span className="footer-text3 TextSM">
                 Politica de privacidade
               </span>
-              <a href="https://startpee.com/" className="footer-link4 TextSM">
+              <a
+                href="https://blog.primojunior.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="footer-link4 TextSM"
+              >
+                Nosso Blog
+              </a>
+              <a href="https://startpee.com/" className="footer-link5 TextSM">
                 Nosso projeto
               </a>
               <a
                 href="https://api.whatsapp.com/send?phone=5511967272695"
-                className="footer-link5 TextSM"
+                className="footer-link6 TextSM"
               >
                 Fale comigo
               </a>
@@ -240,6 +248,11 @@ const Footer = (props) => {
           }
           .footer-link5 {
             color: var(--dl-color-secondary-500);
+            margin-top: 6px;
+            text-decoration: none;
+          }
+          .footer-link6 {
+            color: var(--dl-color-secondary-500);
             padding-top: 6px;
             padding-bottom: 6px;
             text-decoration: none;
@@ -299,6 +312,10 @@ const Footer = (props) => {
               font-weight: 600;
             }
             .footer-link4 {
+              margin-top: 10px;
+              margin-bottom: 10px;
+            }
+            .footer-link5 {
               margin-top: 10px;
               margin-bottom: 10px;
             }
