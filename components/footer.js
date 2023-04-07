@@ -270,6 +270,10 @@ const Footer = (props) => {
               align-items: center;
               margin-bottom: var(--dl-space-space-doubleunit);
             }
+            .footer-container08 {
+              margin-left: 103px;
+              margin-right: 0px;
+            }
             .footer-container09 {
               align-items: center;
             }
