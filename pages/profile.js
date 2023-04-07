@@ -62,7 +62,17 @@ const Profile = (props) => {
                   ></PrimaryButton>
                 </a>
               </div>
-              <SecondaryButton button="Mensagem"></SecondaryButton>
+              <a
+                href="https://api.whatsapp.com/send?phone=5511967272695"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="profile-link1"
+              >
+                <SecondaryButton
+                  button="Mensagem"
+                  className="profile-component5"
+                ></SecondaryButton>
+              </a>
             </div>
           </div>
           <div className="profile-container06">
@@ -211,6 +221,12 @@ const Profile = (props) => {
             display: contents;
           }
           .profile-component4 {
+            text-decoration: none;
+          }
+          .profile-link1 {
+            display: contents;
+          }
+          .profile-component5 {
             text-decoration: none;
           }
           .profile-container06 {
