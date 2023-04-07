@@ -211,9 +211,11 @@ const Footer = (props) => {
           }
           .footer-container08 {
             display: flex;
+            align-self: center;
             align-items: flex-start;
+            margin-right: 103px;
             flex-direction: row;
-            justify-content: flex-start;
+            justify-content: center;
           }
           .footer-container09 {
             flex: 0 0 auto;
