@@ -164,6 +164,11 @@ const BlogPost = (props) => {
             display: grid;
             grid-template-columns: repeat(12, 1fr);
           }
+          @media (max-width: 991px) {
+            .blog-post-text1 {
+              color: rgb(148, 163, 184);
+            }
+          }
           @media (max-width: 767px) {
             .blog-post-text {
               color: var(--dl-color-gray-white);

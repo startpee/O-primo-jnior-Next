@@ -79,9 +79,7 @@ const Home = (props) => {
           </div>
           <div className="home-banner">
             <h1 className="home-text07">Quer fazer parte do nosso projeto?</h1>
-            <span className="home-text08">
-              juntos nós tornamos forte e crescemos 
-            </span>
+            <span className="home-text08">Juntos nós fazemos a diferença</span>
             <div className="home-btn-group">
               <a
                 href="https://api.whatsapp.com/send?phone=5511967272695"
