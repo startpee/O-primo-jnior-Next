@@ -270,6 +270,7 @@ const Home = (props) => {
           }
           .home-image {
             width: 33%;
+            height: 497px;
             object-fit: cover;
             margin-left: auto;
             margin-right: auto;
