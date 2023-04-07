@@ -41,7 +41,7 @@ const BlogPost = (props) => {
             <br></br>
           </span>
           <a
-            href="https://www.startpee.com/blog/"
+            href="https://blog.primojunior.com/"
             className="blog-post-link button"
           >
             Visitar blog
