@@ -213,7 +213,6 @@ const Footer = (props) => {
             display: flex;
             align-self: center;
             align-items: flex-start;
-            margin-right: 103px;
             flex-direction: row;
             justify-content: center;
           }
@@ -281,7 +280,10 @@ const Footer = (props) => {
               text-align: center;
             }
             .footer-container08 {
+              align-self: center;
               align-items: center;
+              margin-left: 91px;
+              margin-right: 0px;
               flex-direction: column;
             }
             .footer-container09 {
