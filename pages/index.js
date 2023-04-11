@@ -78,8 +78,10 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-banner">
-            <h1 className="home-text07">Quer fazer parte do nosso projeto?</h1>
-            <span className="home-text08">Juntos nós fazemos a diferença</span>
+            <h1 className="home-text07">Posso te ajudar no seu projeto?</h1>
+            <span className="home-text08">
+              Faço assessoria de tecnologia,marketing,negócios e E-commerce 
+            </span>
             <div className="home-btn-group">
               <a
                 href="https://api.whatsapp.com/send?phone=5511967272695"
@@ -339,7 +341,7 @@ const Home = (props) => {
             justify-content: space-between;
           }
           .home-text07 {
-            color: #6c77fb;
+            color: rgb(108, 119, 251);
             font-size: 3rem;
             text-align: center;
           }
