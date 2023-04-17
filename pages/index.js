@@ -57,12 +57,7 @@ const Home = (props) => {
             />
             <div className="home-container02">
               <span className="home-text05">
-                Servir as pessoas com a minha visão
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
+                Criatividade e sofisticação é oque nos faz diferente.
               </span>
               <div className="home-container03">
                 <div className="home-container04">
@@ -289,7 +284,7 @@ const Home = (props) => {
           }
           .home-text05 {
             color: var(--dl-color-secondary-400);
-            font-size: 1.3rem;
+            font-size: 2rem;
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
             text-align: center;
