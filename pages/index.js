@@ -89,6 +89,12 @@ const Home = (props) => {
           </div>
           <div className="home-team"></div>
         </div>
+        <div>
+          <DangerousHTML
+            html={`<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-e24cc80c-5f20-4128-ad77-e08938ec7102"></div>`}
+          ></DangerousHTML>
+        </div>
         <div className="home-section3">
           <div className="home-container05">
             <h6 className="home-text09 TextSM">
