@@ -69,12 +69,9 @@ const Footer = (props) => {
               >
                 Nosso Blog
               </a>
-              <a href="https://startpee.com/" className="footer-link4 TextSM">
-                Nosso projeto
-              </a>
               <a
                 href="https://api.whatsapp.com/send?phone=5511967272695"
-                className="footer-link5 TextSM"
+                className="footer-link4 TextSM"
               >
                 Fale comigo
               </a>
@@ -232,15 +229,11 @@ const Footer = (props) => {
           }
           .footer-link3 {
             color: var(--dl-color-secondary-500);
+            display: none;
             margin-top: 6px;
             text-decoration: none;
           }
           .footer-link4 {
-            color: var(--dl-color-secondary-500);
-            margin-top: 6px;
-            text-decoration: none;
-          }
-          .footer-link5 {
             color: var(--dl-color-secondary-500);
             padding-top: 6px;
             padding-bottom: 6px;
@@ -301,10 +294,6 @@ const Footer = (props) => {
               font-weight: 600;
             }
             .footer-link3 {
-              margin-top: 10px;
-              margin-bottom: 10px;
-            }
-            .footer-link4 {
               margin-top: 10px;
               margin-bottom: 10px;
             }
