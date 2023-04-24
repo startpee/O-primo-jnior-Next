@@ -184,7 +184,7 @@ const Header = (props) => {
             display: contents;
           }
           .header-container2 {
-            display: flex;
+            display: none;
             align-items: center;
             margin-left: var(--dl-space-space-halfunit);
             flex-direction: row;
@@ -402,6 +402,9 @@ const Header = (props) => {
           }
           @media (max-width: 479px) {
             .header-mobile-menu {
+              display: none;
+            }
+            .header-container5 {
               display: none;
             }
             .header-text5 {
