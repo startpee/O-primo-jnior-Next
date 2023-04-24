@@ -25,32 +25,25 @@ const Footer = (props) => {
                   </svg>
                 </a>
               </div>
-              <div className="footer-container05">
-                <a
-                  href="https://www.youtube.com/@oprimojunior"
-                  className="footer-link1"
-                >
+              <a
+                href="https://www.youtube.com/@oprimojunio"
+                className="footer-link1"
+              >
+                <div className="footer-container05">
                   <svg viewBox="0 0 1024 1024" className="footer-icon04">
                     <path d="M1013.8 307.2c0 0-10-70.6-40.8-101.6-39-40.8-82.6-41-102.6-43.4-143.2-10.4-358.2-10.4-358.2-10.4h-0.4c0 0-215 0-358.2 10.4-20 2.4-63.6 2.6-102.6 43.4-30.8 31-40.6 101.6-40.6 101.6s-10.2 82.8-10.2 165.8v77.6c0 82.8 10.2 165.8 10.2 165.8s10 70.6 40.6 101.6c39 40.8 90.2 39.4 113 43.8 82 7.8 348.2 10.2 348.2 10.2s215.2-0.4 358.4-10.6c20-2.4 63.6-2.6 102.6-43.4 30.8-31 40.8-101.6 40.8-101.6s10.2-82.8 10.2-165.8v-77.6c-0.2-82.8-10.4-165.8-10.4-165.8zM406.2 644.8v-287.8l276.6 144.4-276.6 143.4z"></path>
                   </svg>
-                </a>
-              </div>
-              <a
-                href="https://open.spotify.com/show/1G3k5izl3JZnSxxdPaC8RR"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="footer-link2"
-              >
-                <div className="footer-container06">
-                  <svg viewBox="0 0 1024 1024" className="footer-icon06">
-                    <path d="M512 0c-281.6 0-512 230.4-512 512s230.4 512 512 512 512-230.4 512-512-227.8-512-512-512zM747.6 739.8c-10.2 15.4-28.2 20.4-43.6 10.2-120.4-74.2-271.4-89.6-450.6-48.6-18 5.2-33.2-7.6-38.4-23-5.2-18 7.6-33.2 23-38.4 194.6-43.6 363.6-25.6 496.6 56.4 18 7.6 20.6 28 13 43.4zM809 599c-12.8 18-35.8 25.6-53.8 12.8-138.2-84.4-348.2-110-509.4-58.8-20.4 5.2-43.6-5.2-48.6-25.6-5.2-20.4 5.2-43.6 25.6-48.6 186.8-56.4 417.2-28.2 576 69.2 15.2 7.6 23 33.2 10.2 51zM814 455.6c-163.8-97.2-437.8-107.6-594-58.8-25.6 7.6-51.2-7.6-58.8-30.8-7.6-25.6 7.6-51.2 30.8-58.8 181.8-53.8 481.2-43.6 670.8 69.2 23 12.8 30.8 43.6 18 66.6-13 17.8-43.6 25.4-66.8 12.6z"></path>
-                  </svg>
                 </div>
               </a>
+              <div className="footer-container06">
+                <svg viewBox="0 0 1024 1024" className="footer-icon06">
+                  <path d="M512 0c-281.6 0-512 230.4-512 512s230.4 512 512 512 512-230.4 512-512-227.8-512-512-512zM747.6 739.8c-10.2 15.4-28.2 20.4-43.6 10.2-120.4-74.2-271.4-89.6-450.6-48.6-18 5.2-33.2-7.6-38.4-23-5.2-18 7.6-33.2 23-38.4 194.6-43.6 363.6-25.6 496.6 56.4 18 7.6 20.6 28 13 43.4zM809 599c-12.8 18-35.8 25.6-53.8 12.8-138.2-84.4-348.2-110-509.4-58.8-20.4 5.2-43.6-5.2-48.6-25.6-5.2-20.4 5.2-43.6 25.6-48.6 186.8-56.4 417.2-28.2 576 69.2 15.2 7.6 23 33.2 10.2 51zM814 455.6c-163.8-97.2-437.8-107.6-594-58.8-25.6 7.6-51.2-7.6-58.8-30.8-7.6-25.6 7.6-51.2 30.8-58.8 181.8-53.8 481.2-43.6 670.8 69.2 23 12.8 30.8 43.6 18 66.6-13 17.8-43.6 25.4-66.8 12.6z"></path>
+                </svg>
+              </div>
               <div className="footer-container07">
                 <a
                   href="https://br.pinterest.com/oprimojunior/"
-                  className="footer-link3"
+                  className="footer-link2"
                 >
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
@@ -72,16 +65,16 @@ const Footer = (props) => {
                 href="https://blog.primojunior.com/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="footer-link4 TextSM"
+                className="footer-link3 TextSM"
               >
                 Nosso Blog
               </a>
-              <a href="https://startpee.com/" className="footer-link5 TextSM">
+              <a href="https://startpee.com/" className="footer-link4 TextSM">
                 Nosso projeto
               </a>
               <a
                 href="https://api.whatsapp.com/send?phone=5511967272695"
-                className="footer-link6 TextSM"
+                className="footer-link5 TextSM"
               >
                 Fale comigo
               </a>
@@ -154,6 +147,9 @@ const Footer = (props) => {
             height: 24px;
             text-decoration: none;
           }
+          .footer-link1 {
+            display: contents;
+          }
           .footer-container05 {
             flex: 0 0 auto;
             width: 2.5rem;
@@ -165,18 +161,12 @@ const Footer = (props) => {
             border-radius: var(--dl-radius-radius-round);
             flex-direction: row;
             justify-content: center;
+            text-decoration: none;
             background-color: var(--dl-color-gray-white);
-          }
-          .footer-link1 {
-            display: contents;
           }
           .footer-icon04 {
             width: 24px;
             height: 24px;
-            text-decoration: none;
-          }
-          .footer-link2 {
-            display: contents;
           }
           .footer-container06 {
             flex: 0 0 auto;
@@ -189,7 +179,6 @@ const Footer = (props) => {
             border-radius: var(--dl-radius-radius-round);
             flex-direction: row;
             justify-content: center;
-            text-decoration: none;
             background-color: var(--dl-color-gray-white);
           }
           .footer-icon06 {
@@ -209,7 +198,7 @@ const Footer = (props) => {
             justify-content: center;
             background-color: var(--dl-color-gray-white);
           }
-          .footer-link3 {
+          .footer-link2 {
             display: contents;
           }
           .footer-icon08 {
@@ -241,17 +230,17 @@ const Footer = (props) => {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
           }
+          .footer-link3 {
+            color: var(--dl-color-secondary-500);
+            margin-top: 6px;
+            text-decoration: none;
+          }
           .footer-link4 {
             color: var(--dl-color-secondary-500);
             margin-top: 6px;
             text-decoration: none;
           }
           .footer-link5 {
-            color: var(--dl-color-secondary-500);
-            margin-top: 6px;
-            text-decoration: none;
-          }
-          .footer-link6 {
             color: var(--dl-color-secondary-500);
             padding-top: 6px;
             padding-bottom: 6px;
@@ -311,11 +300,11 @@ const Footer = (props) => {
               color: var(--dl-color-secondary-400);
               font-weight: 600;
             }
-            .footer-link4 {
+            .footer-link3 {
               margin-top: 10px;
               margin-bottom: 10px;
             }
-            .footer-link5 {
+            .footer-link4 {
               margin-top: 10px;
               margin-bottom: 10px;
             }

@@ -240,11 +240,13 @@ const Home = (props) => {
           .home-container01 {
             width: 66%;
             display: flex;
+            transition: 0.3s;
             align-items: center;
             padding-left: var(--dl-space-space-unit);
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
+
           .home-text {
             color: var(--dl-color-secondary-400);
             font-size: 2.25rem;
@@ -294,10 +296,12 @@ const Home = (props) => {
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
             text-align: center;
+            transition: 0.3s;
             font-family: Poppins;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unitandhalf);
           }
+
           .home-container03 {
             flex: 0 0 auto;
             width: 100%;
