@@ -147,6 +147,7 @@ const Header = (props) => {
           }
           .header-image {
             width: 100px;
+            display: none;
             object-fit: cover;
             text-decoration: none;
           }
@@ -158,7 +159,6 @@ const Header = (props) => {
           }
           .header-image1 {
             width: 100px;
-            display: none;
             object-fit: cover;
             margin-left: var(--dl-space-space-unit);
             margin-right: var(--dl-space-space-unit);
@@ -365,6 +365,9 @@ const Header = (props) => {
               max-width: 1320px;
               margin-bottom: var(--dl-space-space-triplequarter);
             }
+            .header-image1 {
+              display: flex;
+            }
             .header-icon28 {
               margin-top: 0px;
               margin-bottom: 0px;
@@ -381,6 +384,9 @@ const Header = (props) => {
           @media (max-width: 767px) {
             .header-header {
               background-color: var(--dl-color-gray-white);
+            }
+            .header-image {
+              display: flex;
             }
             .header-container1 {
               display: none;
