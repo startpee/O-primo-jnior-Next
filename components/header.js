@@ -158,6 +158,7 @@ const Header = (props) => {
           }
           .header-image1 {
             width: 100px;
+            display: none;
             object-fit: cover;
             margin-left: var(--dl-space-space-unit);
             margin-right: var(--dl-space-space-unit);
