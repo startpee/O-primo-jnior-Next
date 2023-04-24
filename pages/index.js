@@ -75,7 +75,7 @@ const Home = (props) => {
           <div className="home-banner">
             <h1 className="home-text07">Posso te ajudar no seu projeto?</h1>
             <span className="home-text08">
-              Faço assessoria de tecnologia,marketing,negócios e E-commerce 
+              Faço assessoria de Tecnologia &amp; Negócios
             </span>
             <div className="home-btn-group">
               <a
