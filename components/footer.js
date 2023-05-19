@@ -72,16 +72,25 @@ const Footer = (props) => {
                 Nosso Blog
               </a>
               <a
-                href="https://api.whatsapp.com/send?phone=5511967272695"
-                className="footer-link4 TextSM"
+                href="https://www.linkedin.com/in/oprimojr/"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="footer-link4"
               >
-                Trabalhe comigo
+                <div className="footer-container10">
+                  <span className="footer-text4">Trabalhe comigo</span>
+                  <img
+                    src={props.image_src}
+                    alt={props.image_alt}
+                    className="footer-image"
+                  />
+                </div>
               </a>
             </div>
           </div>
         </div>
-        <div className="footer-container10"></div>
-        <span className="footer-text4 TextSM">
+        <div className="footer-container11"></div>
+        <span className="footer-text5 TextSM">
           Copyright © 2023 O primo júnior
         </span>
       </div>
@@ -100,7 +109,11 @@ const Footer = (props) => {
             width: 100%;
             display: flex;
             max-width: 1320px;
+            margin-top: 2px;
             align-items: flex-start;
+            margin-left: 10px;
+            margin-right: 5px;
+            margin-bottom: 5px;
             flex-direction: row;
             justify-content: space-between;
           }
@@ -236,12 +249,32 @@ const Footer = (props) => {
             text-decoration: none;
           }
           .footer-link4 {
+            display: contents;
+          }
+          .footer-container10 {
+            flex: 0 0 auto;
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            text-decoration: none;
+          }
+          .footer-text4 {
             color: var(--dl-color-secondary-500);
+            font-size: 0.87rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 1.25;
             padding-top: 6px;
             padding-bottom: 6px;
             text-decoration: none;
           }
-          .footer-container10 {
+          .footer-image {
+            width: 30px;
+            object-fit: cover;
+            margin-left: 5px;
+            margin-right: 5px;
+          }
+          .footer-container11 {
             flex: 0 0 auto;
             width: 100%;
             height: 1px;
@@ -252,7 +285,7 @@ const Footer = (props) => {
             flex-direction: column;
             background-color: #e3e8efff;
           }
-          .footer-text4 {
+          .footer-text5 {
             color: var(--dl-color-secondary-500);
             align-self: center;
           }
@@ -274,6 +307,17 @@ const Footer = (props) => {
             }
             .footer-container09 {
               align-items: center;
+            }
+            .footer-container10 {
+              height: 34px;
+            }
+            .footer-image {
+              width: 30px;
+              margin: 5px;
+              margin-top: 1px;
+              margin-left: 5px;
+              margin-right: 5px;
+              margin-bottom: 5px;
             }
           }
           @media (max-width: 767px) {
@@ -332,10 +376,14 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   rootClassName: '',
+  image_src: '/playground_assets/unnamed-200h.png',
+  image_alt: 'image',
 }
 
 Footer.propTypes = {
   rootClassName: PropTypes.string,
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
 }
 
 export default Footer
