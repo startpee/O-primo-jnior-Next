@@ -66,9 +66,7 @@ const Home = (props) => {
           </div>
           <div className="home-banner">
             <h1 className="home-text07">Posso te ajudar no seu projeto?</h1>
-            <span className="home-text08">
-              Assessoria de Tecnologia &amp; Negócios
-            </span>
+            <span className="home-text08">Tecnologia &amp; Negócios</span>
             <div className="home-btn-group">
               <a
                 href="https://api.whatsapp.com/send?phone=5511967272695"
@@ -324,6 +322,7 @@ const Home = (props) => {
             text-align: center;
           }
           .home-text08 {
+            font-size: 2rem;
             max-width: 1400px;
             margin-top: 32px;
             text-align: center;
@@ -336,13 +335,18 @@ const Home = (props) => {
           }
           .home-link {
             color: var(--dl-color-gray-white);
+            font-style: normal;
             transition: 0.3s;
+            font-weight: 700;
             padding-top: var(--dl-space-space-unit);
+            border-width: 2px;
             padding-left: 32px;
+            border-radius: var(--dl-radius-radius-radius50);
             padding-right: 32px;
             padding-bottom: var(--dl-space-space-unit);
             text-decoration: none;
             background-color: var(--dl-color-gray-black);
+            border-top-left-radius: var(--dl-radius-radius-radius50);
           }
           .home-link:hover {
             transform: scale(1.02);

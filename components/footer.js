@@ -75,7 +75,7 @@ const Footer = (props) => {
                 href="https://api.whatsapp.com/send?phone=5511967272695"
                 className="footer-link4 TextSM"
               >
-                Fale comigo
+                Trabalhe comigo
               </a>
             </div>
           </div>
