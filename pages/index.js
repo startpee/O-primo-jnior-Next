@@ -68,7 +68,9 @@ const Home = (props) => {
             </span>
             <div className="home-btn-group">
               <a
-                href="https://api.whatsapp.com/send?phone=5511967272695"
+                href="https://go.crisp.chat/chat/embed/?website_id=7d9e59c3-d71f-4371-a708-d5af20a49739"
+                target="_blank"
+                rel="noreferrer noopener"
                 className="home-link button"
               >
                 Falar comigo
