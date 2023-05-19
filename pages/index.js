@@ -345,7 +345,7 @@ const Home = (props) => {
             padding-right: 32px;
             padding-bottom: var(--dl-space-space-unit);
             text-decoration: none;
-            background-color: var(--dl-color-gray-black);
+            background-color: #1a1b29;
             border-top-left-radius: var(--dl-radius-radius-radius50);
           }
           .home-link:hover {

@@ -358,7 +358,7 @@ const Header = (props) => {
             margin-bottom: 0px;
           }
           .header-root-class-name1 {
-            background-color: #020204;
+            background-color: #1a1b29;
           }
           @media (max-width: 991px) {
             .header-header {
