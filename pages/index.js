@@ -78,12 +78,6 @@ const Home = (props) => {
           </div>
           <div className="home-team"></div>
         </div>
-        <div>
-          <DangerousHTML
-            html={`<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-e24cc80c-5f20-4128-ad77-e08938ec7102"></div>`}
-          ></DangerousHTML>
-        </div>
         <div className="home-section3">
           <div className="home-container04">
             <h6 className="home-text08 TextSM">
@@ -691,8 +685,8 @@ const Home = (props) => {
               padding-right: 16px;
             }
             .home-text05 {
+              margin: 19px;
               font-size: 3rem;
-              margin-left: 12px;
             }
             .home-banner {
               padding-top: 32px;
@@ -708,7 +702,7 @@ const Home = (props) => {
               line-height: 1.3;
             }
             .home-text07 {
-              font-size: 1.8rem;
+              font-size: 1.2rem;
               line-height: 1.4;
             }
             .home-btn-group {
