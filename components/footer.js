@@ -59,7 +59,7 @@ const Footer = (props) => {
           </div>
           <div className="footer-container08">
             <div className="footer-container09">
-              <span className="footer-text2">Nossa empresa</span>
+              <span className="footer-text2">Nosso Site</span>
               <span className="footer-text3 TextSM">
                 Politica de privacidade
               </span>

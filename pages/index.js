@@ -60,14 +60,6 @@ const Home = (props) => {
                 Criatividade e sofisticação é oque nos faz diferente.
               </span>
               <div className="home-container03">
-                <div className="home-container04">
-                  <svg
-                    viewBox="0 0 967.4605714285714 1024"
-                    className="home-icon"
-                  >
-                    <path d="M822.857 256c0-30.286-24.571-54.857-54.857-54.857s-54.857 24.571-54.857 54.857 24.571 54.857 54.857 54.857 54.857-24.571 54.857-54.857zM950.857 91.429c0 189.714-52.571 316-188 452-33.143 32.571-70.857 66.286-111.429 100.571l-11.429 216.571c-0.571 5.714-4 11.429-9.143 14.857l-219.429 128c-2.857 1.714-5.714 2.286-9.143 2.286-4.571 0-9.143-1.714-13.143-5.143l-36.571-36.571c-4.571-5.143-6.286-12-4.571-18.286l48.571-157.714-160.571-160.571-157.714 48.571c-1.714 0.571-3.429 0.571-5.143 0.571-4.571 0-9.714-1.714-13.143-5.143l-36.571-36.571c-5.714-6.286-6.857-15.429-2.857-22.286l128-219.429c3.429-5.143 9.143-8.571 14.857-9.143l216.571-11.429c34.286-40.571 68-78.286 100.571-111.429 142.857-142.286 252-188 450.857-188 10.286 0 19.429 8 19.429 18.286z"></path>
-                  </svg>
-                </div>
                 <span className="home-text06">#vailaefaz</span>
               </div>
             </div>
@@ -75,7 +67,7 @@ const Home = (props) => {
           <div className="home-banner">
             <h1 className="home-text07">Posso te ajudar no seu projeto?</h1>
             <span className="home-text08">
-              Faço assessoria de Tecnologia &amp; Negócios
+              Assessoria de Tecnologia &amp; Negócios
             </span>
             <div className="home-btn-group">
               <a
@@ -96,7 +88,7 @@ const Home = (props) => {
           ></DangerousHTML>
         </div>
         <div className="home-section3">
-          <div className="home-container05">
+          <div className="home-container04">
             <h6 className="home-text09 TextSM">
               <span>ON THE COASTLINE</span>
             </h6>
@@ -111,9 +103,9 @@ const Home = (props) => {
             </span>
             <div className="home-services">
               <ServiceCard></ServiceCard>
-              <div className="home-container06">
-                <div className="home-container07">
-                  <svg viewBox="0 0 1024 1024" className="home-icon2">
+              <div className="home-container05">
+                <div className="home-container06">
+                  <svg viewBox="0 0 1024 1024" className="home-icon">
                     <path d="M832 192v-128h-640v128h-192v128c0 106.038 85.958 192 192 192 20.076 0 39.43-3.086 57.62-8.802 46.174 66.008 116.608 113.796 198.38 130.396v198.406h-64c-70.694 0-128 57.306-128 128h512c0-70.694-57.306-128-128-128h-64v-198.406c81.772-16.6 152.206-64.386 198.38-130.396 18.19 5.716 37.544 8.802 57.62 8.802 106.042 0 192-85.962 192-192v-128h-192zM192 436c-63.962 0-116-52.038-116-116v-64h116v64c0 40.186 7.43 78.632 20.954 114.068-6.802 1.246-13.798 1.932-20.954 1.932zM948 320c0 63.962-52.038 116-116 116-7.156 0-14.152-0.686-20.954-1.932 13.524-35.436 20.954-73.882 20.954-114.068v-64h116v64z"></path>
                   </svg>
                 </div>
@@ -123,9 +115,9 @@ const Home = (props) => {
                   the bulk of the card&apos;s content.
                 </span>
               </div>
-              <div className="home-container08">
-                <div className="home-container09">
-                  <svg viewBox="0 0 1024 1024" className="home-icon4">
+              <div className="home-container07">
+                <div className="home-container08">
+                  <svg viewBox="0 0 1024 1024" className="home-icon2">
                     <path d="M726 726v-172h-86v172h86zM554 726v-428h-84v428h84zM384 726v-300h-86v300h86zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-34 0-60-26t-26-60v-596q0-34 26-60t60-26h596z"></path>
                   </svg>
                 </div>
@@ -170,7 +162,7 @@ const Home = (props) => {
                   placeholder="Type a message"
                   className="home-textarea TextSM textarea"
                 ></textarea>
-                <div className="home-container10">
+                <div className="home-container09">
                   <SecondaryButton
                     button="Send message"
                     rootClassName="secondary-button-root-class-name"
@@ -309,25 +301,6 @@ const Home = (props) => {
             display: flex;
             align-items: flex-start;
           }
-          .home-container04 {
-            flex: 0 0 auto;
-            width: 4rem;
-            height: 4rem;
-            display: flex;
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-              0 4px 6px -2px rgba(0, 0, 0, 0.05);
-            margin-top: 22px;
-            align-items: center;
-            border-radius: var(--dl-radius-radius-round);
-            flex-direction: column;
-            justify-content: center;
-            background-color: var(--dl-color-pimary-700);
-          }
-          .home-icon {
-            fill: var(--dl-color-pimary-500);
-            width: 24px;
-            height: 24px;
-          }
           .home-text06 {
             color: var(--dl-color-secondary-400);
             font-size: 4rem;
@@ -408,7 +381,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-fiveunits);
             background-color: var(--dl-color-secondary-100);
           }
-          .home-container05 {
+          .home-container04 {
             width: 100%;
             display: flex;
             max-width: 1320px;
@@ -443,7 +416,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-container06 {
+          .home-container05 {
             flex: 0 0 auto;
             width: 30%;
             display: flex;
@@ -452,7 +425,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .home-container07 {
+          .home-container06 {
             flex: 0 0 auto;
             width: 48px;
             height: 48px;
@@ -463,7 +436,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #f2f5f9ff;
           }
-          .home-icon2 {
+          .home-icon {
             width: 24px;
             height: 24px;
           }
@@ -477,7 +450,7 @@ const Home = (props) => {
             font-size: 1.25rem;
             text-align: center;
           }
-          .home-container08 {
+          .home-container07 {
             flex: 0 0 auto;
             width: 30%;
             display: flex;
@@ -486,7 +459,7 @@ const Home = (props) => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .home-container09 {
+          .home-container08 {
             flex: 0 0 auto;
             width: 48px;
             height: 48px;
@@ -497,7 +470,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: #f2f5f9ff;
           }
-          .home-icon4 {
+          .home-icon2 {
             width: 24px;
             height: 24px;
           }
@@ -612,7 +585,7 @@ const Home = (props) => {
             color: var(--dl-color-secondary-500);
             box-shadow: 0 0 0 2px #4aa4e3;
           }
-          .home-container10 {
+          .home-container09 {
             display: flex;
             align-self: center;
             margin-top: var(--dl-space-space-unit);
@@ -658,18 +631,18 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-doubleunit);
               padding-right: var(--dl-space-space-doubleunit);
             }
-            .home-container05 {
+            .home-container04 {
               width: 100%;
             }
             .home-services {
               align-items: center;
               flex-direction: column;
             }
-            .home-container06 {
+            .home-container05 {
               width: 100%;
               padding-bottom: var(--dl-space-space-doubleunit);
             }
-            .home-container08 {
+            .home-container07 {
               width: 100%;
               padding-bottom: var(--dl-space-space-doubleunit);
             }
@@ -747,12 +720,6 @@ const Home = (props) => {
               width: 331px;
               height: 118px;
               padding-right: 16px;
-            }
-            .home-container04 {
-              width: 41px;
-              height: 39px;
-              margin-top: 22px;
-              margin-left: 5px;
             }
             .home-text06 {
               font-size: 3rem;
