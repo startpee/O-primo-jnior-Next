@@ -9,7 +9,7 @@ const Footer = (props) => {
         <div className="footer-container01">
           <div className="footer-container02">
             <h1 className="footer-text TextXL">@oprimojr</h1>
-            <span className="footer-text1">Acompanha o primo nas redes</span>
+            <span className="footer-text01">Acompanha o primo nas redes</span>
             <div className="footer-container03">
               <a
                 href="https://www.instagram.com/oprimojr/"
@@ -59,8 +59,8 @@ const Footer = (props) => {
           </div>
           <div className="footer-container08">
             <div className="footer-container09">
-              <span className="footer-text2">Nosso Site</span>
-              <span className="footer-text3 TextSM">
+              <span className="footer-text02">Nosso Site</span>
+              <span className="footer-text03 TextSM">
                 Politica de privacidade
               </span>
               <a
@@ -78,10 +78,10 @@ const Footer = (props) => {
                 className="footer-link4"
               >
                 <div className="footer-container10">
-                  <span className="footer-text4">Trabalhe comigo</span>
+                  <span className="footer-text04">Trabalhe comigo</span>
                   <img
-                    src={props.image_src}
                     alt={props.image_alt}
+                    src={props.image_src}
                     className="footer-image"
                   />
                 </div>
@@ -90,9 +90,16 @@ const Footer = (props) => {
           </div>
         </div>
         <div className="footer-container11"></div>
-        <span className="footer-text5 TextSM">
+        <span className="footer-text05 TextSM">
           Copyright © 2023 O primo júnior
         </span>
+        <a href="http://startpee.com/" className="footer-link5">
+          <h2 className="footer-text06">
+            <span className="Text2XL">by </span>
+            <span className="footer-text08">Startpee</span>
+            <br className="Text2XL"></br>
+          </h2>
+        </a>
       </div>
       <style jsx>
         {`
@@ -128,7 +135,7 @@ const Footer = (props) => {
             margin-top: var(--dl-space-space-unit);
             font-weight: 600;
           }
-          .footer-text1 {
+          .footer-text01 {
             color: var(--dl-color-secondary-500);
             margin-top: var(--dl-space-space-halfunit);
             margin-bottom: var(--dl-space-space-halfunit);
@@ -233,12 +240,12 @@ const Footer = (props) => {
             margin-right: 100px;
             flex-direction: column;
           }
-          .footer-text2 {
+          .footer-text02 {
             color: var(--dl-color-secondary-400);
             font-weight: 600;
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .footer-text3 {
+          .footer-text03 {
             color: var(--dl-color-secondary-500);
             padding-bottom: var(--dl-space-space-halfunit);
           }
@@ -258,7 +265,7 @@ const Footer = (props) => {
             align-items: flex-start;
             text-decoration: none;
           }
-          .footer-text4 {
+          .footer-text04 {
             color: var(--dl-color-secondary-500);
             font-size: 0.87rem;
             font-style: normal;
@@ -285,9 +292,27 @@ const Footer = (props) => {
             flex-direction: column;
             background-color: #e3e8efff;
           }
-          .footer-text5 {
+          .footer-text05 {
             color: var(--dl-color-secondary-500);
             align-self: center;
+          }
+          .footer-link5 {
+            display: contents;
+          }
+          .footer-text06 {
+            color: var(--dl-color-secondary-400);
+            font-size: 2.25rem;
+            margin-top: var(--dl-space-space-halfunit);
+            text-align: center;
+            font-weight: 700;
+            line-height: 2.5rem;
+            margin-bottom: var(--dl-space-space-doubleunit);
+            text-transform: none;
+            text-decoration: none;
+          }
+          .footer-text08 {
+            color: #6c77fb;
+            background-color: rgb(255, 255, 255);
           }
           .footer-root-class-name {
             height: 100%;
@@ -319,9 +344,12 @@ const Footer = (props) => {
               margin-right: 5px;
               margin-bottom: 5px;
             }
+            .footer-text06 {
+              text-align: center;
+            }
           }
           @media (max-width: 767px) {
-            .footer-text1 {
+            .footer-text01 {
               color: var(--dl-color-secondary-500);
               text-align: center;
             }
@@ -335,7 +363,7 @@ const Footer = (props) => {
             .footer-container09 {
               align-items: center;
             }
-            .footer-text2 {
+            .footer-text02 {
               color: var(--dl-color-secondary-400);
               font-weight: 600;
             }
@@ -358,7 +386,7 @@ const Footer = (props) => {
               margin-top: 25px;
               margin-left: 114px;
             }
-            .footer-text2 {
+            .footer-text02 {
               color: var(--dl-color-secondary-400);
               font-style: normal;
               font-weight: 700;
@@ -376,14 +404,20 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   rootClassName: '',
-  image_src: '/playground_assets/unnamed-200h.png',
   image_alt: 'image',
+  image_src: '/playground_assets/unnamed-200h.png',
+  text: 'E',
+  text1: 'u sou o cara da ',
+  text2: 'tecnologia',
 }
 
 Footer.propTypes = {
   rootClassName: PropTypes.string,
-  image_src: PropTypes.string,
   image_alt: PropTypes.string,
+  image_src: PropTypes.string,
+  text: PropTypes.string,
+  text1: PropTypes.string,
+  text2: PropTypes.string,
 }
 
 export default Footer
