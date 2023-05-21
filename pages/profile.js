@@ -2,7 +2,6 @@ import React from 'react'
 import Head from 'next/head'
 
 import Header from '../components/header'
-import Counter from '../components/counter'
 import PrimaryButton from '../components/primary-button'
 import SecondaryButton from '../components/secondary-button'
 import Footer from '../components/footer'
@@ -32,19 +31,7 @@ const Profile = (props) => {
         </div>
         <div className="profile-container01">
           <div className="profile-container02">
-            <div className="profile-container03">
-              <Counter rootClassName="counter-root-class-name1"></Counter>
-              <Counter
-                type="Photos"
-                number="10"
-                rootClassName="counter-root-class-name2"
-              ></Counter>
-              <Counter
-                type="Comments"
-                number="89"
-                rootClassName="counter-root-class-name"
-              ></Counter>
-            </div>
+            <div className="profile-container03"></div>
             <img
               alt="image"
               src="/playground_assets/img_20220824_110123-200h.jpg"
@@ -58,7 +45,7 @@ const Profile = (props) => {
                 >
                   <PrimaryButton
                     button="conectar"
-                    className="profile-component4"
+                    className="profile-component1"
                   ></PrimaryButton>
                 </a>
               </div>
@@ -70,7 +57,7 @@ const Profile = (props) => {
               >
                 <SecondaryButton
                   button="Mensagem"
-                  className="profile-component5"
+                  className="profile-component2"
                 ></SecondaryButton>
               </a>
             </div>
@@ -220,13 +207,13 @@ const Profile = (props) => {
           .profile-link {
             display: contents;
           }
-          .profile-component4 {
+          .profile-component1 {
             text-decoration: none;
           }
           .profile-link1 {
             display: contents;
           }
-          .profile-component5 {
+          .profile-component2 {
             text-decoration: none;
           }
           .profile-container06 {
